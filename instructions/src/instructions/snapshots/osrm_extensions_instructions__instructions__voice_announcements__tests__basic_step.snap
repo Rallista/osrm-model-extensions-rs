@@ -1,0 +1,12 @@
+---
+source: instructions/src/instructions/voice_announcements.rs
+expression: announcements
+---
+[
+    Maneuver(
+        Distance {
+            value: 70.0,
+            unit: Meters,
+        },
+    ),
+]

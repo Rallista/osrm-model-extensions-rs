@@ -1,0 +1,5 @@
+---
+source: instructions/src/geo/utilities.rs
+expression: "format!(\"{:?}\", coords)"
+---
+Some([Coord { x: -122.29663, y: 38.79699 }, Coord { x: -122.29699, y: 38.79663 }, Coord { x: -122.29731, y: 38.79631 }])

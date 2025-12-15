@@ -1,0 +1,3123 @@
+{
+    "routes": [
+        {
+            "weight_name": "auto",
+            "weight": 442.481,
+            "duration": 324.17,
+            "distance": 6538.376,
+            "legs": [
+                {
+                    "via_waypoints": [],
+                    "annotation": {
+                        "maxspeed": [
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "speed": 89,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 89,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 89,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 89,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 89,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 89,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 89,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 89,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 89,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 89,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 89,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 89,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 89,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 89,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 89,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 89,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 89,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 89,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 89,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 89,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 89,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 72,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 89,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 89,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 89,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 89,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 89,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 105,
+                                "unit": "km/h"
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "unknown": true
+                            },
+                            {
+                                "speed": 56,
+                                "unit": "km/h"
+                            },
+                            {
+                                "speed": 56,
+                                "unit": "km/h"
+                            }
+                        ],
+                        "speed": [
+                            13.9,
+                            13.9,
+                            13.9,
+                            13.9,
+                            13.9,
+                            13.9,
+                            13.9,
+                            13.9,
+                            13.9,
+                            13.9,
+                            13.9,
+                            13.9,
+                            13.9,
+                            13.9,
+                            13.9,
+                            13.9,
+                            16.7,
+                            16.7,
+                            16.7,
+                            16.7,
+                            16.7,
+                            16.7,
+                            16.7,
+                            16.7,
+                            16.7,
+                            16.7,
+                            16.7,
+                            16.7,
+                            16.7,
+                            21.4,
+                            21.4,
+                            21.4,
+                            21.4,
+                            21.4,
+                            21.4,
+                            21.4,
+                            21.4,
+                            21.4,
+                            21.4,
+                            21.4,
+                            21.4,
+                            21.4,
+                            21.4,
+                            21.4,
+                            21.4,
+                            21.4,
+                            21.4,
+                            21.4,
+                            21.4,
+                            21.4,
+                            21.4,
+                            21.4,
+                            21.4,
+                            21.4,
+                            21.4,
+                            21.4,
+                            21.4,
+                            21.4,
+                            21.4,
+                            21.4,
+                            21.4,
+                            21.4,
+                            21.4,
+                            21.4,
+                            21.4,
+                            21.4,
+                            21.4,
+                            24.7,
+                            24.7,
+                            24.7,
+                            24.7,
+                            24.7,
+                            24.7,
+                            24.7,
+                            24.7,
+                            24.7,
+                            24.7,
+                            24.7,
+                            24.7,
+                            24.7,
+                            24.7,
+                            24.7,
+                            24.7,
+                            24.7,
+                            24.7,
+                            24.7,
+                            24.7,
+                            24.7,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            20.0,
+                            24.7,
+                            24.7,
+                            24.7,
+                            24.7,
+                            24.7,
+                            29.2,
+                            23.3,
+                            23.3,
+                            23.3,
+                            23.3,
+                            23.3,
+                            23.3,
+                            23.3,
+                            23.3,
+                            23.3,
+                            23.3,
+                            23.3,
+                            36.4,
+                            36.4,
+                            15.8,
+                            15.8,
+                            15.8,
+                            15.8,
+                            15.6,
+                            15.6
+                        ],
+                        "distance": [
+                            21.6,
+                            47.6,
+                            21.3,
+                            18.2,
+                            6.5,
+                            3.6,
+                            4.3,
+                            3.2,
+                            3.2,
+                            5.1,
+                            4.3,
+                            3.8,
+                            3.6,
+                            2.2,
+                            4.0,
+                            3.3,
+                            5.2,
+                            2.7,
+                            2.5,
+                            2.9,
+                            1.7,
+                            2.3,
+                            2.1,
+                            1.5,
+                            2.5,
+                            1.8,
+                            3.7,
+                            1.9,
+                            7.3,
+                            1.3,
+                            3.2,
+                            1.4,
+                            2.9,
+                            1.6,
+                            3.2,
+                            1.9,
+                            3.6,
+                            2.1,
+                            4.1,
+                            3.0,
+                            4.9,
+                            2.0,
+                            4.0,
+                            2.7,
+                            1.6,
+                            3.6,
+                            3.9,
+                            5.7,
+                            2.7,
+                            4.3,
+                            3.2,
+                            3.0,
+                            3.3,
+                            14.2,
+                            21.5,
+                            75.9,
+                            34.0,
+                            14.4,
+                            8.9,
+                            7.1,
+                            8.8,
+                            5.4,
+                            11.2,
+                            7.8,
+                            7.8,
+                            13.1,
+                            97.5,
+                            83.7,
+                            148.5,
+                            36.5,
+                            36.8,
+                            122.7,
+                            75.4,
+                            91.8,
+                            40.6,
+                            117.6,
+                            64.2,
+                            76.8,
+                            34.1,
+                            19.6,
+                            23.0,
+                            40.8,
+                            36.4,
+                            62.6,
+                            48.4,
+                            59.9,
+                            73.0,
+                            73.5,
+                            50.6,
+                            29.2,
+                            27.8,
+                            27.6,
+                            24.8,
+                            23.7,
+                            28.0,
+                            32.1,
+                            20.2,
+                            6.0,
+                            19.8,
+                            4.6,
+                            10.7,
+                            29.4,
+                            10.3,
+                            12.0,
+                            4.6,
+                            7.1,
+                            11.5,
+                            6.8,
+                            16.6,
+                            19.9,
+                            71.2,
+                            15.3,
+                            22.0,
+                            41.8,
+                            24.9,
+                            27.1,
+                            25.0,
+                            23.9,
+                            15.8,
+                            15.7,
+                            16.5,
+                            23.1,
+                            21.2,
+                            20.8,
+                            24.0,
+                            17.6,
+                            19.6,
+                            19.2,
+                            20.6,
+                            23.7,
+                            24.1,
+                            36.7,
+                            49.7,
+                            37.1,
+                            24.9,
+                            21.1,
+                            11.6,
+                            13.2,
+                            12.8,
+                            15.9,
+                            13.8,
+                            13.1,
+                            14.9,
+                            12.6,
+                            15.5,
+                            14.7,
+                            18.7,
+                            13.8,
+                            15.7,
+                            13.2,
+                            11.8,
+                            15.1,
+                            17.8,
+                            14.2,
+                            16.5,
+                            12.5,
+                            12.9,
+                            8.6,
+                            18.0,
+                            11.5,
+                            14.1,
+                            11.4,
+                            2.9,
+                            13.4,
+                            15.2,
+                            27.8,
+                            19.8,
+                            50.0,
+                            106.0,
+                            79.0,
+                            39.2,
+                            40.3,
+                            8.4,
+                            44.8,
+                            70.7,
+                            37.7,
+                            59.3,
+                            24.2,
+                            54.5,
+                            65.7,
+                            11.4,
+                            17.4,
+                            35.4,
+                            21.5,
+                            125.9,
+                            231.7,
+                            275.6,
+                            122.0,
+                            350.2,
+                            160.5,
+                            151.3,
+                            108.2,
+                            22.6,
+                            20.6,
+                            21.6,
+                            38.7,
+                            64.2,
+                            48.1,
+                            95.7,
+                            46.9,
+                            106.3,
+                            8.9,
+                            6.5,
+                            18.7,
+                            23.4,
+                            8.6,
+                            109.0,
+                            60.9,
+                            33.4,
+                            2.3
+                        ],
+                        "duration": [
+                            1.558,
+                            3.43,
+                            1.534,
+                            1.309,
+                            0.467,
+                            0.261,
+                            0.307,
+                            0.232,
+                            0.232,
+                            0.367,
+                            0.312,
+                            0.27,
+                            0.259,
+                            0.158,
+                            0.285,
+                            0.241,
+                            0.311,
+                            0.165,
+                            0.149,
+                            0.173,
+                            0.103,
+                            0.136,
+                            0.125,
+                            0.087,
+                            0.149,
+                            0.108,
+                            0.221,
+                            0.114,
+                            0.438,
+                            0.059,
+                            0.148,
+                            0.065,
+                            0.137,
+                            0.075,
+                            0.148,
+                            0.089,
+                            0.167,
+                            0.099,
+                            0.193,
+                            0.141,
+                            0.23,
+                            0.094,
+                            0.185,
+                            0.128,
+                            0.076,
+                            0.17,
+                            0.183,
+                            0.264,
+                            0.125,
+                            0.199,
+                            0.151,
+                            0.142,
+                            0.153,
+                            0.662,
+                            1.006,
+                            3.548,
+                            1.588,
+                            0.672,
+                            0.414,
+                            0.332,
+                            0.413,
+                            0.252,
+                            0.524,
+                            0.365,
+                            0.365,
+                            0.614,
+                            4.557,
+                            3.385,
+                            6.007,
+                            1.478,
+                            1.488,
+                            4.965,
+                            3.048,
+                            3.713,
+                            1.644,
+                            4.755,
+                            2.596,
+                            3.107,
+                            1.378,
+                            0.791,
+                            0.931,
+                            1.652,
+                            1.47,
+                            2.531,
+                            1.957,
+                            2.422,
+                            2.952,
+                            2.971,
+                            2.532,
+                            1.458,
+                            1.391,
+                            1.382,
+                            1.239,
+                            1.183,
+                            1.4,
+                            1.607,
+                            1.008,
+                            0.302,
+                            0.988,
+                            0.231,
+                            0.537,
+                            1.471,
+                            0.515,
+                            0.599,
+                            0.229,
+                            0.356,
+                            0.577,
+                            0.338,
+                            0.83,
+                            0.993,
+                            3.562,
+                            0.763,
+                            1.098,
+                            2.089,
+                            1.247,
+                            1.354,
+                            1.252,
+                            1.195,
+                            0.788,
+                            0.787,
+                            0.825,
+                            1.154,
+                            1.058,
+                            1.039,
+                            1.202,
+                            0.882,
+                            0.98,
+                            0.959,
+                            1.028,
+                            1.184,
+                            1.206,
+                            1.834,
+                            2.484,
+                            1.855,
+                            1.243,
+                            1.055,
+                            0.578,
+                            0.658,
+                            0.639,
+                            0.795,
+                            0.689,
+                            0.657,
+                            0.746,
+                            0.632,
+                            0.777,
+                            0.737,
+                            0.934,
+                            0.692,
+                            0.786,
+                            0.661,
+                            0.59,
+                            0.757,
+                            0.891,
+                            0.708,
+                            0.823,
+                            0.626,
+                            0.647,
+                            0.432,
+                            0.9,
+                            0.575,
+                            0.706,
+                            0.571,
+                            0.146,
+                            0.669,
+                            0.762,
+                            1.392,
+                            0.989,
+                            2.502,
+                            5.302,
+                            3.948,
+                            1.961,
+                            2.013,
+                            0.42,
+                            2.239,
+                            3.537,
+                            1.886,
+                            2.967,
+                            1.212,
+                            2.723,
+                            3.286,
+                            0.569,
+                            0.869,
+                            1.77,
+                            1.075,
+                            6.295,
+                            9.373,
+                            11.148,
+                            4.935,
+                            14.165,
+                            6.494,
+                            5.187,
+                            4.638,
+                            0.969,
+                            0.882,
+                            0.925,
+                            1.656,
+                            2.75,
+                            2.063,
+                            4.101,
+                            2.009,
+                            4.554,
+                            0.382,
+                            0.179,
+                            0.514,
+                            1.477,
+                            0.541,
+                            6.883,
+                            3.847,
+                            2.148,
+                            0.15
+                        ]
+                    },
+                    "admins": [
+                        {
+                            "iso_3166_1_alpha3": "USA",
+                            "iso_3166_1": "US"
+                        }
+                    ],
+                    "weight": 442.481,
+                    "duration": 324.17,
+                    "steps": [
+                        {
+                            "intersections": [
+                                {
+                                    "entry": [
+                                        true
+                                    ],
+                                    "bearings": [
+                                        55
+                                    ],
+                                    "duration": 1.558,
+                                    "admin_index": 0,
+                                    "out": 0,
+                                    "weight": 1.558,
+                                    "geometry_index": 0,
+                                    "location": [
+                                        -105.225581,
+                                        39.744391
+                                    ]
+                                },
+                                {
+                                    "entry": [
+                                        true,
+                                        false,
+                                        true
+                                    ],
+                                    "in": 1,
+                                    "bearings": [
+                                        53,
+                                        235,
+                                        331
+                                    ],
+                                    "duration": 3.477,
+                                    "turn_weight": 1.2,
+                                    "turn_duration": 0.021,
+                                    "admin_index": 0,
+                                    "out": 0,
+                                    "weight": 4.656,
+                                    "geometry_index": 1,
+                                    "location": [
+                                        -105.225375,
+                                        39.744504
+                                    ]
+                                },
+                                {
+                                    "entry": [
+                                        true,
+                                        false
+                                    ],
+                                    "in": 1,
+                                    "bearings": [
+                                        53,
+                                        233
+                                    ],
+                                    "duration": 1.512,
+                                    "turn_weight": 1.2,
+                                    "admin_index": 0,
+                                    "out": 0,
+                                    "weight": 2.712,
+                                    "geometry_index": 2,
+                                    "location": [
+                                        -105.224933,
+                                        39.744764
+                                    ]
+                                },
+                                {
+                                    "entry": [
+                                        true,
+                                        true,
+                                        false
+                                    ],
+                                    "in": 2,
+                                    "bearings": [
+                                        53,
+                                        155,
+                                        233
+                                    ],
+                                    "duration": 1.315,
+                                    "turn_weight": 1.2,
+                                    "turn_duration": 0.019,
+                                    "admin_index": 0,
+                                    "out": 0,
+                                    "weight": 2.496,
+                                    "geometry_index": 3,
+                                    "location": [
+                                        -105.224735,
+                                        39.74488
+                                    ]
+                                },
+                                {
+                                    "entry": [
+                                        true,
+                                        false,
+                                        false,
+                                        false
+                                    ],
+                                    "in": 2,
+                                    "bearings": [
+                                        39,
+                                        142,
+                                        233,
+                                        322
+                                    ],
+                                    "duration": 0.488,
+                                    "turn_weight": 4.8,
+                                    "turn_duration": 0.056,
+                                    "admin_index": 0,
+                                    "out": 0,
+                                    "weight": 5.232,
+                                    "geometry_index": 4,
+                                    "location": [
+                                        -105.224565,
+                                        39.744978
+                                    ]
+                                },
+                                {
+                                    "entry": [
+                                        true,
+                                        false,
+                                        true
+                                    ],
+                                    "in": 1,
+                                    "bearings": [
+                                        36,
+                                        219,
+                                        324
+                                    ],
+                                    "duration": 2.974,
+                                    "turn_weight": 1.2,
+                                    "turn_duration": 0.022,
+                                    "admin_index": 0,
+                                    "out": 0,
+                                    "weight": 4.152,
+                                    "geometry_index": 5,
+                                    "location": [
+                                        -105.224517,
+                                        39.745023
+                                    ]
+                                },
+                                {
+                                    "bearings": [
+                                        30,
+                                        68,
+                                        214,
+                                        331
+                                    ],
+                                    "entry": [
+                                        false,
+                                        true,
+                                        false,
+                                        false
+                                    ],
+                                    "in": 2,
+                                    "turn_weight": 3.6,
+                                    "turn_duration": 0.067,
+                                    "admin_index": 0,
+                                    "out": 1,
+                                    "geometry_index": 16,
+                                    "location": [
+                                        -105.224244,
+                                        39.745318
+                                    ]
+                                }
+                            ],
+                            "speedLimitUnit": "mph",
+                            "maneuver": {
+                                "instruction": "Drive northeast on 19th Street.",
+                                "type": "depart",
+                                "bearing_after": 55,
+                                "bearing_before": 0,
+                                "location": [
+                                    -105.225581,
+                                    39.744391
+                                ]
+                            },
+                            "speedLimitSign": "mutcd",
+                            "name": "19th Street",
+                            "duration": 13.672,
+                            "distance": 193.634,
+                            "driving_side": "right",
+                            "weight": 26.686,
+                            "mode": "driving",
+                            "geometry": "mwxxjAxumugEaF{KgOsZgFkKcEsIyA_Bm@{@w@cAm@m@o@i@oAy@eAk@{@g@w@i@_@]u@{@i@w@q@eBWw@Ss@S}@Ie@Gs@Eo@Aa@Ay@@i@BuABk@TgD"
+                        },
+                        {
+                            "intersections": [
+                                {
+                                    "entry": [
+                                        false,
+                                        true,
+                                        true,
+                                        false
+                                    ],
+                                    "in": 3,
+                                    "bearings": [
+                                        38,
+                                        83,
+                                        193,
+                                        273
+                                    ],
+                                    "duration": 21.996,
+                                    "turn_weight": 9.0,
+                                    "turn_duration": 3.248,
+                                    "admin_index": 0,
+                                    "out": 2,
+                                    "weight": 27.748,
+                                    "geometry_index": 29,
+                                    "location": [
+                                        -105.223823,
+                                        39.745373
+                                    ]
+                                },
+                                {
+                                    "entry": [
+                                        true,
+                                        false,
+                                        false
+                                    ],
+                                    "in": 1,
+                                    "bearings": [
+                                        146,
+                                        324,
+                                        327
+                                    ],
+                                    "duration": 10.889,
+                                    "turn_weight": 19.4,
+                                    "turn_duration": 0.008,
+                                    "admin_index": 0,
+                                    "out": 0,
+                                    "weight": 30.281,
+                                    "geometry_index": 67,
+                                    "location": [
+                                        -105.221261,
+                                        39.742489
+                                    ]
+                                },
+                                {
+                                    "entry": [
+                                        true,
+                                        false
+                                    ],
+                                    "in": 1,
+                                    "bearings": [
+                                        146,
+                                        328
+                                    ],
+                                    "duration": 1.497,
+                                    "admin_index": 0,
+                                    "out": 0,
+                                    "weight": 1.497,
+                                    "geometry_index": 70,
+                                    "location": [
+                                        -105.219513,
+                                        39.740484
+                                    ]
+                                },
+                                {
+                                    "entry": [
+                                        true,
+                                        false
+                                    ],
+                                    "in": 1,
+                                    "bearings": [
+                                        146,
+                                        326
+                                    ],
+                                    "duration": 25.2,
+                                    "admin_index": 0,
+                                    "out": 0,
+                                    "weight": 25.2,
+                                    "geometry_index": 71,
+                                    "location": [
+                                        -105.219271,
+                                        39.740211
+                                    ]
+                                },
+                                {
+                                    "entry": [
+                                        true,
+                                        true,
+                                        false
+                                    ],
+                                    "in": 2,
+                                    "bearings": [
+                                        56,
+                                        146,
+                                        326
+                                    ],
+                                    "duration": 1.758,
+                                    "turn_weight": 1.95,
+                                    "turn_duration": 0.019,
+                                    "admin_index": 0,
+                                    "out": 1,
+                                    "weight": 3.733,
+                                    "geometry_index": 79,
+                                    "location": [
+                                        -105.215226,
+                                        39.735557
+                                    ]
+                                },
+                                {
+                                    "entry": [
+                                        true,
+                                        false,
+                                        false
+                                    ],
+                                    "in": 2,
+                                    "bearings": [
+                                        146,
+                                        196,
+                                        326
+                                    ],
+                                    "duration": 15.956,
+                                    "turn_duration": 0.019,
+                                    "admin_index": 0,
+                                    "out": 0,
+                                    "weight": 16.336,
+                                    "geometry_index": 81,
+                                    "location": [
+                                        -105.21495,
+                                        39.735239
+                                    ]
+                                },
+                                {
+                                    "entry": [
+                                        true,
+                                        false
+                                    ],
+                                    "in": 1,
+                                    "bearings": [
+                                        146,
+                                        326
+                                    ],
+                                    "duration": 13.2,
+                                    "admin_index": 0,
+                                    "out": 0,
+                                    "weight": 13.53,
+                                    "geometry_index": 88,
+                                    "location": [
+                                        -105.212401,
+                                        39.732287
+                                    ]
+                                },
+                                {
+                                    "entry": [
+                                        true,
+                                        false
+                                    ],
+                                    "in": 1,
+                                    "bearings": [
+                                        127,
+                                        308
+                                    ],
+                                    "duration": 1.5,
+                                    "admin_index": 0,
+                                    "out": 0,
+                                    "weight": 1.538,
+                                    "geometry_index": 97,
+                                    "location": [
+                                        -105.210378,
+                                        39.730515
+                                    ]
+                                },
+                                {
+                                    "lanes": [
+                                        {
+                                            "indications": [
+                                                "left"
+                                            ],
+                                            "valid": false,
+                                            "active": false
+                                        },
+                                        {
+                                            "indications": [
+                                                "straight"
+                                            ],
+                                            "valid_indication": "straight",
+                                            "valid": true,
+                                            "active": true
+                                        },
+                                        {
+                                            "indications": [
+                                                "straight"
+                                            ],
+                                            "valid_indication": "straight",
+                                            "valid": true,
+                                            "active": true
+                                        },
+                                        {
+                                            "indications": [
+                                                "straight"
+                                            ],
+                                            "valid_indication": "straight",
+                                            "valid": true,
+                                            "active": true
+                                        }
+                                    ],
+                                    "entry": [
+                                        true,
+                                        false
+                                    ],
+                                    "in": 1,
+                                    "bearings": [
+                                        123,
+                                        306
+                                    ],
+                                    "duration": 2.0,
+                                    "admin_index": 0,
+                                    "out": 0,
+                                    "weight": 2.05,
+                                    "geometry_index": 100,
+                                    "location": [
+                                        -105.210091,
+                                        39.730354
+                                    ]
+                                },
+                                {
+                                    "entry": [
+                                        true,
+                                        true,
+                                        false
+                                    ],
+                                    "in": 2,
+                                    "bearings": [
+                                        115,
+                                        141,
+                                        303
+                                    ],
+                                    "duration": 1.383,
+                                    "lanes": [
+                                        {
+                                            "indications": [
+                                                "left"
+                                            ],
+                                            "valid": false,
+                                            "active": false
+                                        },
+                                        {
+                                            "indications": [
+                                                "straight"
+                                            ],
+                                            "valid_indication": "straight",
+                                            "valid": true,
+                                            "active": true
+                                        },
+                                        {
+                                            "indications": [
+                                                "straight"
+                                            ],
+                                            "valid_indication": "straight",
+                                            "valid": true,
+                                            "active": true
+                                        },
+                                        {
+                                            "indications": [
+                                                "right"
+                                            ],
+                                            "valid": false,
+                                            "active": false
+                                        }
+                                    ],
+                                    "turn_duration": 0.033,
+                                    "admin_index": 0,
+                                    "out": 0,
+                                    "weight": 1.384,
+                                    "geometry_index": 102,
+                                    "location": [
+                                        -105.209698,
+                                        39.730157
+                                    ]
+                                },
+                                {
+                                    "entry": [
+                                        false,
+                                        true,
+                                        false,
+                                        false
+                                    ],
+                                    "in": 3,
+                                    "bearings": [
+                                        25,
+                                        114,
+                                        204,
+                                        296
+                                    ],
+                                    "duration": 0.371,
+                                    "lanes": [
+                                        {
+                                            "indications": [
+                                                "left"
+                                            ],
+                                            "valid": false,
+                                            "active": false
+                                        },
+                                        {
+                                            "indications": [
+                                                "straight"
+                                            ],
+                                            "valid_indication": "straight",
+                                            "valid": true,
+                                            "active": true
+                                        },
+                                        {
+                                            "indications": [
+                                                "straight"
+                                            ],
+                                            "valid_indication": "straight",
+                                            "valid": true,
+                                            "active": true
+                                        }
+                                    ],
+                                    "turn_duration": 0.021,
+                                    "admin_index": 0,
+                                    "out": 1,
+                                    "weight": 0.359,
+                                    "geometry_index": 105,
+                                    "location": [
+                                        -105.209415,
+                                        39.730053
+                                    ]
+                                },
+                                {
+                                    "entry": [
+                                        false,
+                                        true,
+                                        true,
+                                        false
+                                    ],
+                                    "in": 3,
+                                    "bearings": [
+                                        24,
+                                        115,
+                                        201,
+                                        294
+                                    ],
+                                    "duration": 2.607,
+                                    "turn_weight": 2.6,
+                                    "lanes": [
+                                        {
+                                            "indications": [
+                                                "left"
+                                            ],
+                                            "valid": false,
+                                            "active": false
+                                        },
+                                        {
+                                            "indications": [
+                                                "straight"
+                                            ],
+                                            "valid_indication": "straight",
+                                            "valid": true,
+                                            "active": true
+                                        },
+                                        {
+                                            "indications": [
+                                                "straight"
+                                            ],
+                                            "valid_indication": "straight",
+                                            "valid": true,
+                                            "active": true
+                                        }
+                                    ],
+                                    "turn_duration": 2.007,
+                                    "admin_index": 0,
+                                    "out": 1,
+                                    "weight": 3.215,
+                                    "geometry_index": 106,
+                                    "location": [
+                                        -105.209339,
+                                        39.730027
+                                    ]
+                                },
+                                {
+                                    "entry": [
+                                        true,
+                                        true,
+                                        false,
+                                        false
+                                    ],
+                                    "in": 3,
+                                    "bearings": [
+                                        25,
+                                        114,
+                                        199,
+                                        295
+                                    ],
+                                    "duration": 2.371,
+                                    "turn_weight": 2.6,
+                                    "lanes": [
+                                        {
+                                            "indications": [
+                                                "left"
+                                            ],
+                                            "valid": false,
+                                            "active": false
+                                        },
+                                        {
+                                            "indications": [
+                                                "straight"
+                                            ],
+                                            "valid_indication": "straight",
+                                            "valid": true,
+                                            "active": true
+                                        },
+                                        {
+                                            "indications": [
+                                                "straight"
+                                            ],
+                                            "valid_indication": "straight",
+                                            "valid": true,
+                                            "active": true
+                                        }
+                                    ],
+                                    "turn_duration": 2.021,
+                                    "admin_index": 0,
+                                    "out": 1,
+                                    "weight": 2.959,
+                                    "geometry_index": 107,
+                                    "location": [
+                                        -105.209217,
+                                        39.729983
+                                    ]
+                                },
+                                {
+                                    "entry": [
+                                        false,
+                                        true,
+                                        false,
+                                        false
+                                    ],
+                                    "in": 3,
+                                    "bearings": [
+                                        25,
+                                        113,
+                                        206,
+                                        294
+                                    ],
+                                    "duration": 5.419,
+                                    "turn_duration": 0.019,
+                                    "admin_index": 0,
+                                    "out": 1,
+                                    "weight": 5.535,
+                                    "geometry_index": 108,
+                                    "location": [
+                                        -105.209145,
+                                        39.729958
+                                    ]
+                                },
+                                {
+                                    "bearings": [
+                                        104,
+                                        276,
+                                        288
+                                    ],
+                                    "entry": [
+                                        true,
+                                        false,
+                                        false
+                                    ],
+                                    "in": 2,
+                                    "turn_weight": 0.65,
+                                    "turn_duration": 0.026,
+                                    "admin_index": 0,
+                                    "out": 0,
+                                    "geometry_index": 111,
+                                    "location": [
+                                        -105.207958,
+                                        39.72964
+                                    ]
+                                }
+                            ],
+                            "destinations": "US 6 East",
+                            "speedLimitUnit": "mph",
+                            "maneuver": {
+                                "modifier": "right",
+                                "instruction": "Turn right to take the US 6 East ramp.",
+                                "type": "turn",
+                                "bearing_after": 193,
+                                "bearing_before": 93,
+                                "location": [
+                                    -105.223823,
+                                    39.745373
+                                ]
+                            },
+                            "speedLimitSign": "mutcd",
+                            "name": "",
+                            "duration": 138.623,
+                            "distance": 2911.0,
+                            "driving_side": "right",
+                            "weight": 169.274,
+                            "mode": "driving",
+                            "ref": "US 6 East",
+                            "geometry": "ytzxjA|gjugERLr@\\VHp@TZFv@J`@D~@Fd@@hA@t@CvAGb@CdAOn@MZI|@Y`A_@zAw@h@]`Aq@n@i@j@i@l@o@|D{ExGwIr^cd@dMqO`E}EvBgC`BiBxBcCjAmA|CaDnBmBnBmB|DuDhk@wh@ve@qa@ddAo{@jPeM`PcNdx@_q@jb@e]zi@ed@~QmOtu@ao@|\\aYzb@c^|NwLbH}FvIiH`RqO~OuMf\\iXrUqRb[}Vba@o\\ha@w\\tVmSdLsKnKeK`KuKjIaKpH_KtI_NvJyP|EsJ`AoBpEsJl@yAjBoE|GaQlAyE|A{Fb@_Br@wCvAsFp@oCxBaJ|BqLbKqp@z@{IhBmNbEm\\zBoPjC}QnCiPvCiOnBqI~BgIjCsIvEkMpE{K|EeKpGqLtEoHrFiI~FkH|GoHpIoI|IkItOuNpUiTzO{NfJwIfHsHbDeDpDiEdDmE"
+                        },
+                        {
+                            "intersections": [
+                                {
+                                    "entry": [
+                                        true,
+                                        true,
+                                        false
+                                    ],
+                                    "in": 2,
+                                    "bearings": [
+                                        135,
+                                        139,
+                                        318
+                                    ],
+                                    "duration": 13.622,
+                                    "turn_duration": 0.022,
+                                    "admin_index": 0,
+                                    "out": 0,
+                                    "weight": 14.28,
+                                    "geometry_index": 139,
+                                    "location": [
+                                        -105.202182,
+                                        39.726204
+                                    ]
+                                },
+                                {
+                                    "entry": [
+                                        true,
+                                        false
+                                    ],
+                                    "in": 1,
+                                    "bearings": [
+                                        101,
+                                        283
+                                    ],
+                                    "duration": 2.9,
+                                    "admin_index": 0,
+                                    "out": 0,
+                                    "weight": 3.045,
+                                    "geometry_index": 158,
+                                    "location": [
+                                        -105.199453,
+                                        39.725043
+                                    ]
+                                },
+                                {
+                                    "entry": [
+                                        true,
+                                        false,
+                                        false,
+                                        false
+                                    ],
+                                    "in": 2,
+                                    "bearings": [
+                                        93,
+                                        182,
+                                        275,
+                                        358
+                                    ],
+                                    "duration": 0.671,
+                                    "lanes": [
+                                        {
+                                            "indications": [
+                                                "left"
+                                            ],
+                                            "valid": false,
+                                            "active": false
+                                        },
+                                        {
+                                            "indications": [
+                                                "straight"
+                                            ],
+                                            "valid_indication": "straight",
+                                            "valid": true,
+                                            "active": true
+                                        },
+                                        {
+                                            "indications": [
+                                                "straight"
+                                            ],
+                                            "valid_indication": "straight",
+                                            "valid": true,
+                                            "active": true
+                                        }
+                                    ],
+                                    "turn_duration": 0.021,
+                                    "admin_index": 0,
+                                    "out": 0,
+                                    "weight": 0.682,
+                                    "geometry_index": 163,
+                                    "location": [
+                                        -105.198784,
+                                        39.724968
+                                    ]
+                                },
+                                {
+                                    "entry": [
+                                        false,
+                                        true,
+                                        true,
+                                        false
+                                    ],
+                                    "in": 3,
+                                    "bearings": [
+                                        1,
+                                        92,
+                                        184,
+                                        273
+                                    ],
+                                    "duration": 0.769,
+                                    "turn_weight": 2.8,
+                                    "lanes": [
+                                        {
+                                            "indications": [
+                                                "left"
+                                            ],
+                                            "valid": false,
+                                            "active": false
+                                        },
+                                        {
+                                            "indications": [
+                                                "straight"
+                                            ],
+                                            "valid_indication": "straight",
+                                            "valid": true,
+                                            "active": true
+                                        },
+                                        {
+                                            "indications": [
+                                                "straight"
+                                            ],
+                                            "valid_indication": "straight",
+                                            "valid": true,
+                                            "active": true
+                                        }
+                                    ],
+                                    "turn_duration": 0.019,
+                                    "admin_index": 0,
+                                    "out": 1,
+                                    "weight": 3.587,
+                                    "geometry_index": 164,
+                                    "location": [
+                                        -105.198628,
+                                        39.724962
+                                    ]
+                                },
+                                {
+                                    "entry": [
+                                        true,
+                                        true,
+                                        false,
+                                        false
+                                    ],
+                                    "in": 3,
+                                    "bearings": [
+                                        1,
+                                        89,
+                                        175,
+                                        272
+                                    ],
+                                    "duration": 2.422,
+                                    "turn_weight": 8.4,
+                                    "turn_duration": 0.022,
+                                    "admin_index": 0,
+                                    "out": 1,
+                                    "weight": 10.92,
+                                    "geometry_index": 165,
+                                    "location": [
+                                        -105.19845,
+                                        39.724958
+                                    ]
+                                },
+                                {
+                                    "entry": [
+                                        true,
+                                        false,
+                                        false
+                                    ],
+                                    "in": 2,
+                                    "bearings": [
+                                        88,
+                                        256,
+                                        268
+                                    ],
+                                    "duration": 15.758,
+                                    "turn_weight": 2.4,
+                                    "turn_duration": 0.008,
+                                    "admin_index": 0,
+                                    "out": 0,
+                                    "weight": 19.331,
+                                    "geometry_index": 167,
+                                    "location": [
+                                        -105.197894,
+                                        39.72497
+                                    ]
+                                },
+                                {
+                                    "entry": [
+                                        true,
+                                        false,
+                                        false
+                                    ],
+                                    "in": 1,
+                                    "bearings": [
+                                        89,
+                                        268,
+                                        359
+                                    ],
+                                    "duration": 2.658,
+                                    "turn_duration": 0.008,
+                                    "admin_index": 0,
+                                    "out": 0,
+                                    "weight": 2.849,
+                                    "geometry_index": 172,
+                                    "location": [
+                                        -105.194222,
+                                        39.725045
+                                    ]
+                                },
+                                {
+                                    "entry": [
+                                        true,
+                                        true,
+                                        false
+                                    ],
+                                    "in": 2,
+                                    "bearings": [
+                                        89,
+                                        100,
+                                        269
+                                    ],
+                                    "duration": 5.407,
+                                    "turn_duration": 0.007,
+                                    "admin_index": 0,
+                                    "out": 0,
+                                    "weight": 5.805,
+                                    "geometry_index": 174,
+                                    "location": [
+                                        -105.193601,
+                                        39.725055
+                                    ]
+                                },
+                                {
+                                    "entry": [
+                                        true,
+                                        false,
+                                        false
+                                    ],
+                                    "in": 2,
+                                    "bearings": [
+                                        89,
+                                        249,
+                                        267
+                                    ],
+                                    "duration": 4.208,
+                                    "turn_weight": 1.6,
+                                    "turn_duration": 0.008,
+                                    "admin_index": 0,
+                                    "out": 0,
+                                    "weight": 6.115,
+                                    "geometry_index": 176,
+                                    "location": [
+                                        -105.192335,
+                                        39.725086
+                                    ]
+                                },
+                                {
+                                    "entry": [
+                                        true,
+                                        false
+                                    ],
+                                    "in": 1,
+                                    "bearings": [
+                                        89,
+                                        268
+                                    ],
+                                    "duration": 6.6,
+                                    "admin_index": 0,
+                                    "out": 0,
+                                    "weight": 7.095,
+                                    "geometry_index": 178,
+                                    "location": [
+                                        -105.191359,
+                                        39.7251
+                                    ]
+                                },
+                                {
+                                    "entry": [
+                                        false,
+                                        true,
+                                        false,
+                                        false
+                                    ],
+                                    "in": 3,
+                                    "bearings": [
+                                        52,
+                                        89,
+                                        163,
+                                        268
+                                    ],
+                                    "duration": 0.858,
+                                    "lanes": [
+                                        {
+                                            "indications": [
+                                                "left"
+                                            ],
+                                            "valid": false,
+                                            "active": false
+                                        },
+                                        {
+                                            "indications": [
+                                                "left"
+                                            ],
+                                            "valid": false,
+                                            "active": false
+                                        },
+                                        {
+                                            "indications": [
+                                                "straight"
+                                            ],
+                                            "valid_indication": "straight",
+                                            "valid": true,
+                                            "active": true
+                                        },
+                                        {
+                                            "indications": [
+                                                "straight"
+                                            ],
+                                            "valid_indication": "straight",
+                                            "valid": true,
+                                            "active": true
+                                        }
+                                    ],
+                                    "turn_duration": 0.008,
+                                    "admin_index": 0,
+                                    "out": 1,
+                                    "weight": 0.935,
+                                    "geometry_index": 181,
+                                    "location": [
+                                        -105.189823,
+                                        39.725135
+                                    ]
+                                },
+                                {
+                                    "entry": [
+                                        false,
+                                        true,
+                                        true,
+                                        false
+                                    ],
+                                    "in": 3,
+                                    "bearings": [
+                                        62,
+                                        88,
+                                        241,
+                                        269
+                                    ],
+                                    "duration": 3.757,
+                                    "turn_weight": 7.6,
+                                    "lanes": [
+                                        {
+                                            "indications": [
+                                                "left"
+                                            ],
+                                            "valid": false,
+                                            "active": false
+                                        },
+                                        {
+                                            "indications": [
+                                                "left"
+                                            ],
+                                            "valid": false,
+                                            "active": false
+                                        },
+                                        {
+                                            "indications": [
+                                                "straight"
+                                            ],
+                                            "valid_indication": "straight",
+                                            "valid": true,
+                                            "active": true
+                                        },
+                                        {
+                                            "indications": [
+                                                "straight"
+                                            ],
+                                            "valid_indication": "straight",
+                                            "valid": true,
+                                            "active": true
+                                        }
+                                    ],
+                                    "turn_duration": 2.007,
+                                    "admin_index": 0,
+                                    "out": 1,
+                                    "weight": 9.525,
+                                    "geometry_index": 182,
+                                    "location": [
+                                        -105.18962,
+                                        39.725138
+                                    ]
+                                },
+                                {
+                                    "entry": [
+                                        true,
+                                        true,
+                                        false,
+                                        false
+                                    ],
+                                    "classes": [
+                                        "motorway"
+                                    ],
+                                    "in": 3,
+                                    "bearings": [
+                                        61,
+                                        88,
+                                        239,
+                                        268
+                                    ],
+                                    "duration": 3.058,
+                                    "turn_weight": 7.6,
+                                    "turn_duration": 2.008,
+                                    "admin_index": 0,
+                                    "out": 1,
+                                    "weight": 8.755,
+                                    "geometry_index": 183,
+                                    "location": [
+                                        -105.189207,
+                                        39.725151
+                                    ]
+                                },
+                                {
+                                    "entry": [
+                                        false,
+                                        true,
+                                        false,
+                                        false
+                                    ],
+                                    "classes": [
+                                        "motorway"
+                                    ],
+                                    "in": 3,
+                                    "bearings": [
+                                        53,
+                                        88,
+                                        234,
+                                        268
+                                    ],
+                                    "duration": 6.308,
+                                    "turn_duration": 0.008,
+                                    "admin_index": 0,
+                                    "out": 1,
+                                    "weight": 6.93,
+                                    "geometry_index": 184,
+                                    "location": [
+                                        -105.188956,
+                                        39.725159
+                                    ]
+                                },
+                                {
+                                    "entry": [
+                                        true,
+                                        false,
+                                        false
+                                    ],
+                                    "classes": [
+                                        "motorway"
+                                    ],
+                                    "in": 2,
+                                    "bearings": [
+                                        89,
+                                        263,
+                                        268
+                                    ],
+                                    "duration": 39.648,
+                                    "turn_weight": 0.95,
+                                    "turn_duration": 0.008,
+                                    "admin_index": 0,
+                                    "out": 0,
+                                    "weight": 43.564,
+                                    "geometry_index": 185,
+                                    "location": [
+                                        -105.187486,
+                                        39.725191
+                                    ]
+                                },
+                                {
+                                    "entry": [
+                                        true,
+                                        false,
+                                        false
+                                    ],
+                                    "classes": [
+                                        "motorway"
+                                    ],
+                                    "in": 2,
+                                    "bearings": [
+                                        90,
+                                        265,
+                                        270
+                                    ],
+                                    "duration": 6.519,
+                                    "turn_weight": 2.4,
+                                    "turn_duration": 0.007,
+                                    "admin_index": 0,
+                                    "out": 0,
+                                    "weight": 9.401,
+                                    "geometry_index": 189,
+                                    "location": [
+                                        -105.176046,
+                                        39.725261
+                                    ]
+                                },
+                                {
+                                    "bearings": [
+                                        90,
+                                        270
+                                    ],
+                                    "entry": [
+                                        true,
+                                        false
+                                    ],
+                                    "classes": [
+                                        "motorway"
+                                    ],
+                                    "in": 1,
+                                    "admin_index": 0,
+                                    "out": 0,
+                                    "geometry_index": 190,
+                                    "location": [
+                                        -105.174171,
+                                        39.725263
+                                    ]
+                                }
+                            ],
+                            "speedLimitUnit": "mph",
+                            "maneuver": {
+                                "modifier": "slight left",
+                                "instruction": "Keep left to stay on US 6 East.",
+                                "type": "fork",
+                                "bearing_after": 135,
+                                "bearing_before": 138,
+                                "location": [
+                                    -105.202182,
+                                    39.726204
+                                ]
+                            },
+                            "speedLimitSign": "mutcd",
+                            "name": "West 6th Avenue",
+                            "duration": 120.341,
+                            "distance": 2589.0,
+                            "driving_side": "right",
+                            "weight": 158.385,
+                            "mode": "driving",
+                            "ref": "US 6 East",
+                            "geometry": "wfuwjAj_`tgEjEcGhDiF|CcFrDaGrC_FfDaHvCyGpDqJzBwG`CeIbBwGpA}FdBgInBeKrAwHtAoJz@yGt@eH\\eE~@{Kd@gGZgINiGBcAJwHFcJKiSKmM_@oc@q@klA]sx@Ms[Wk\\EcEMu_@[sr@a@oZOij@KuPWwf@i@}n@CiGEuKYyXOuN_A{zAiAchDYehE?axAg@s~FCetBEmmB"
+                        },
+                        {
+                            "intersections": [
+                                {
+                                    "entry": [
+                                        true,
+                                        true,
+                                        false
+                                    ],
+                                    "in": 2,
+                                    "bearings": [
+                                        90,
+                                        93,
+                                        270
+                                    ],
+                                    "duration": 13.894,
+                                    "lanes": [
+                                        {
+                                            "indications": [
+                                                "straight"
+                                            ],
+                                            "valid": false,
+                                            "active": false
+                                        },
+                                        {
+                                            "indications": [
+                                                "straight"
+                                            ],
+                                            "valid": false,
+                                            "active": false
+                                        },
+                                        {
+                                            "indications": [
+                                                "straight",
+                                                "slight right"
+                                            ],
+                                            "valid_indication": "slight right",
+                                            "valid": true,
+                                            "active": true
+                                        }
+                                    ],
+                                    "turn_duration": 0.008,
+                                    "admin_index": 0,
+                                    "out": 1,
+                                    "weight": 14.927,
+                                    "geometry_index": 191,
+                                    "location": [
+                                        -105.172404,
+                                        39.725266
+                                    ]
+                                },
+                                {
+                                    "entry": [
+                                        true,
+                                        false
+                                    ],
+                                    "in": 1,
+                                    "bearings": [
+                                        97,
+                                        276
+                                    ],
+                                    "duration": 6.129,
+                                    "admin_index": 0,
+                                    "out": 0,
+                                    "weight": 6.588,
+                                    "geometry_index": 198,
+                                    "location": [
+                                        -105.168635,
+                                        39.725028
+                                    ]
+                                },
+                                {
+                                    "entry": [
+                                        true,
+                                        false
+                                    ],
+                                    "in": 1,
+                                    "bearings": [
+                                        97,
+                                        277
+                                    ],
+                                    "duration": 4.543,
+                                    "admin_index": 0,
+                                    "out": 0,
+                                    "weight": 4.884,
+                                    "geometry_index": 200,
+                                    "location": [
+                                        -105.166981,
+                                        39.724879
+                                    ]
+                                },
+                                {
+                                    "entry": [
+                                        false,
+                                        true,
+                                        false,
+                                        false
+                                    ],
+                                    "in": 3,
+                                    "bearings": [
+                                        0,
+                                        89,
+                                        182,
+                                        277
+                                    ],
+                                    "duration": 0.419,
+                                    "lanes": [
+                                        {
+                                            "indications": [
+                                                "left"
+                                            ],
+                                            "valid_indication": "left",
+                                            "valid": true,
+                                            "active": false
+                                        },
+                                        {
+                                            "indications": [
+                                                "left",
+                                                "straight",
+                                                "right"
+                                            ],
+                                            "valid_indication": "left",
+                                            "valid": true,
+                                            "active": true
+                                        },
+                                        {
+                                            "indications": [
+                                                "right"
+                                            ],
+                                            "valid": false,
+                                            "active": false
+                                        }
+                                    ],
+                                    "turn_duration": 0.033,
+                                    "admin_index": 0,
+                                    "out": 1,
+                                    "weight": 0.415,
+                                    "geometry_index": 201,
+                                    "location": [
+                                        -105.16575,
+                                        39.724757
+                                    ]
+                                },
+                                {
+                                    "bearings": [
+                                        0,
+                                        87,
+                                        177,
+                                        269
+                                    ],
+                                    "entry": [
+                                        false,
+                                        true,
+                                        true,
+                                        false
+                                    ],
+                                    "in": 3,
+                                    "turn_weight": 22.4,
+                                    "lanes": [
+                                        {
+                                            "indications": [
+                                                "left"
+                                            ],
+                                            "valid_indication": "left",
+                                            "valid": true,
+                                            "active": false
+                                        },
+                                        {
+                                            "indications": [
+                                                "left",
+                                                "straight",
+                                                "right"
+                                            ],
+                                            "valid_indication": "left",
+                                            "valid": true,
+                                            "active": true
+                                        },
+                                        {
+                                            "indications": [
+                                                "right"
+                                            ],
+                                            "valid": false,
+                                            "active": false
+                                        }
+                                    ],
+                                    "turn_duration": 2.021,
+                                    "admin_index": 0,
+                                    "out": 1,
+                                    "geometry_index": 202,
+                                    "location": [
+                                        -105.165646,
+                                        39.724758
+                                    ]
+                                }
+                            ],
+                            "destinations": "Indiana Street, Denver West, Colorado Mills Boulevard",
+                            "speedLimitUnit": "mph",
+                            "maneuver": {
+                                "modifier": "slight right",
+                                "instruction": "Take the exit toward Indiana Street/Denver West/Colorado Mills Boulevard.",
+                                "type": "off ramp",
+                                "bearing_after": 93,
+                                "bearing_before": 90,
+                                "location": [
+                                    -105.172404,
+                                    39.725266
+                                ]
+                            },
+                            "speedLimitSign": "mutcd",
+                            "name": "",
+                            "duration": 27.692,
+                            "distance": 607.0,
+                            "driving_side": "right",
+                            "weight": 49.952,
+                            "mode": "driving",
+                            "geometry": "clswjAfzergEhB{mAFoOT_Nd@uNfAa[hCom@zA}a@hEkdA~A_a@rF}kAAoE?wCYsL"
+                        },
+                        {
+                            "intersections": [
+                                {
+                                    "entry": [
+                                        true,
+                                        true,
+                                        false,
+                                        false
+                                    ],
+                                    "in": 3,
+                                    "bearings": [
+                                        1,
+                                        83,
+                                        183,
+                                        266
+                                    ],
+                                    "duration": 8.782,
+                                    "turn_weight": 5.0,
+                                    "lanes": [
+                                        {
+                                            "indications": [
+                                                "left"
+                                            ],
+                                            "valid_indication": "left",
+                                            "valid": true,
+                                            "active": false
+                                        },
+                                        {
+                                            "indications": [
+                                                "left",
+                                                "straight",
+                                                "right"
+                                            ],
+                                            "valid_indication": "left",
+                                            "valid": true,
+                                            "active": true
+                                        },
+                                        {
+                                            "indications": [
+                                                "right"
+                                            ],
+                                            "valid": false,
+                                            "active": false
+                                        }
+                                    ],
+                                    "turn_duration": 6.761,
+                                    "admin_index": 0,
+                                    "out": 0,
+                                    "weight": 7.173,
+                                    "geometry_index": 204,
+                                    "location": [
+                                        -105.165352,
+                                        39.724771
+                                    ]
+                                },
+                                {
+                                    "entry": [
+                                        true,
+                                        false
+                                    ],
+                                    "in": 1,
+                                    "bearings": [
+                                        0,
+                                        181
+                                    ],
+                                    "duration": 6.884,
+                                    "admin_index": 0,
+                                    "out": 0,
+                                    "weight": 7.401,
+                                    "geometry_index": 206,
+                                    "location": [
+                                        -105.165346,
+                                        39.725058
+                                    ]
+                                },
+                                {
+                                    "entry": [
+                                        true,
+                                        false,
+                                        false,
+                                        true
+                                    ],
+                                    "in": 2,
+                                    "bearings": [
+                                        1,
+                                        99,
+                                        180,
+                                        275
+                                    ],
+                                    "duration": 5.86,
+                                    "turn_weight": 14.6,
+                                    "lanes": [
+                                        {
+                                            "indications": [
+                                                "left"
+                                            ],
+                                            "valid": false,
+                                            "active": false
+                                        },
+                                        {
+                                            "indications": [
+                                                "left"
+                                            ],
+                                            "valid": false,
+                                            "active": false
+                                        },
+                                        {
+                                            "indications": [
+                                                "straight"
+                                            ],
+                                            "valid_indication": "straight",
+                                            "valid": true,
+                                            "active": false
+                                        },
+                                        {
+                                            "indications": [
+                                                "straight"
+                                            ],
+                                            "valid_indication": "straight",
+                                            "valid": true,
+                                            "active": true
+                                        }
+                                    ],
+                                    "turn_duration": 2.007,
+                                    "admin_index": 0,
+                                    "out": 0,
+                                    "weight": 18.742,
+                                    "geometry_index": 207,
+                                    "location": [
+                                        -105.165342,
+                                        39.726037
+                                    ]
+                                },
+                                {
+                                    "bearings": [
+                                        1,
+                                        168,
+                                        181
+                                    ],
+                                    "entry": [
+                                        true,
+                                        false,
+                                        false
+                                    ],
+                                    "in": 2,
+                                    "turn_weight": 2.4,
+                                    "turn_duration": 0.019,
+                                    "admin_index": 0,
+                                    "out": 0,
+                                    "geometry_index": 208,
+                                    "location": [
+                                        -105.165324,
+                                        39.726584
+                                    ]
+                                }
+                            ],
+                            "speedLimitUnit": "mph",
+                            "maneuver": {
+                                "modifier": "left",
+                                "instruction": "Turn left onto Indiana Street.",
+                                "type": "turn",
+                                "bearing_after": 1,
+                                "bearing_before": 86,
+                                "location": [
+                                    -105.165352,
+                                    39.724771
+                                ]
+                            },
+                            "speedLimitSign": "mutcd",
+                            "name": "Indiana Street",
+                            "duration": 23.843,
+                            "distance": 237.741,
+                            "driving_side": "right",
+                            "weight": 38.185,
+                            "mode": "driving",
+                            "geometry": "emrwjAnaxqgEcLKyC?e|@Gea@c@wQSi@?"
+                        },
+                        {
+                            "intersections": [
+                                {
+                                    "bearings": [
+                                        181
+                                    ],
+                                    "entry": [
+                                        true
+                                    ],
+                                    "in": 0,
+                                    "admin_index": 0,
+                                    "geometry_index": 210,
+                                    "location": [
+                                        -105.165314,
+                                        39.726905
+                                    ]
+                                }
+                            ],
+                            "speedLimitUnit": "mph",
+                            "maneuver": {
+                                "instruction": "You have arrived at your destination.",
+                                "type": "arrive",
+                                "bearing_after": 0,
+                                "bearing_before": 1,
+                                "location": [
+                                    -105.165314,
+                                    39.726905
+                                ]
+                            },
+                            "speedLimitSign": "mutcd",
+                            "name": "Indiana Street",
+                            "duration": 0.0,
+                            "distance": 0.0,
+                            "driving_side": "right",
+                            "weight": 0.0,
+                            "mode": "driving",
+                            "geometry": "qrvwjAb_xqgE??"
+                        }
+                    ],
+                    "distance": 6538.376,
+                    "summary": "US 6 East, Indiana Street"
+                }
+            ],
+            "geometry": "mwxxjAxumugEaF{KgOsZgFkKcEsIyA_Bm@{@w@cAm@m@o@i@oAy@eAk@{@g@w@i@_@]u@{@i@w@q@eBWw@Ss@S}@Ie@Gs@Eo@Aa@Ay@@i@BuABk@TgDRLr@\\VHp@TZFv@J`@D~@Fd@@hA@t@CvAGb@CdAOn@MZI|@Y`A_@zAw@h@]`Aq@n@i@j@i@l@o@|D{ExGwIr^cd@dMqO`E}EvBgC`BiBxBcCjAmA|CaDnBmBnBmB|DuDhk@wh@ve@qa@ddAo{@jPeM`PcNdx@_q@jb@e]zi@ed@~QmOtu@ao@|\\aYzb@c^|NwLbH}FvIiH`RqO~OuMf\\iXrUqRb[}Vba@o\\ha@w\\tVmSdLsKnKeK`KuKjIaKpH_KtI_NvJyP|EsJ`AoBpEsJl@yAjBoE|GaQlAyE|A{Fb@_Br@wCvAsFp@oCxBaJ|BqLbKqp@z@{IhBmNbEm\\zBoPjC}QnCiPvCiOnBqI~BgIjCsIvEkMpE{K|EeKpGqLtEoHrFiI~FkH|GoHpIoI|IkItOuNpUiTzO{NfJwIfHsHbDeDpDiEdDmEjEcGhDiF|CcFrDaGrC_FfDaHvCyGpDqJzBwG`CeIbBwGpA}FdBgInBeKrAwHtAoJz@yGt@eH\\eE~@{Kd@gGZgINiGBcAJwHFcJKiSKmM_@oc@q@klA]sx@Ms[Wk\\EcEMu_@[sr@a@oZOij@KuPWwf@i@}n@CiGEuKYyXOuN_A{zAiAchDYehE?axAg@s~FCetBEmmBhB{mAFoOT_Nd@uNfAa[hCom@zA}a@hEkdA~A_a@rF}kAAoE?wCYsLcLKyC?e|@Gea@c@wQSi@?"
+        }
+    ],
+    "waypoints": [
+        {
+            "distance": 6.656,
+            "name": "19th Street",
+            "location": [
+                -105.225581,
+                39.744391
+            ]
+        },
+        {
+            "distance": 0.616,
+            "name": "Denver West Colorado Mills Boulevard",
+            "location": [
+                -105.165314,
+                39.726905
+            ]
+        }
+    ],
+    "code": "Ok"
+}

@@ -1,0 +1,240 @@
+_version: 2
+
+numbers.0:
+  en: zero
+numbers.1:
+  en: one
+numbers.2:
+  en: two
+numbers.3:
+  en: three
+numbers.4:
+  en: four
+numbers.5:
+  en: five
+numbers.6:
+  en: six
+numbers.7:
+  en: seven
+numbers.8:
+  en: eight
+numbers.9:
+  en: nine
+numbers.10:
+  en: ten
+numbers.11:
+  en: eleven
+numbers.12:
+  en: twelve
+numbers.13:
+  en: thirteen
+numbers.14:
+  en: fourteen
+numbers.15:
+  en: fifteen
+numbers.16:
+  en: sixteen
+numbers.17:
+  en: seventeen
+numbers.18:
+  en: eighteen
+numbers.19:
+  en: nineteen
+
+numbers.20:
+  en: twenty
+numbers.30:
+  en: thirty
+numbers.40:
+  en: forty
+numbers.50:
+  en: fifty
+numbers.60:
+  en: sixty
+numbers.70:
+  en: seventy
+numbers.80:
+  en: eighty
+numbers.90:
+  en: ninety
+
+numbers.combined.20_1:
+  en: twenty one
+numbers.combined.20_2:
+  en: twenty two
+numbers.combined.20_3:
+  en: twenty three
+numbers.combined.20_4:
+  en: twenty four
+numbers.combined.20_5:
+  en: twenty five
+numbers.combined.20_6:
+  en: twenty six
+numbers.combined.20_7:
+  en: twenty seven
+numbers.combined.20_8:
+  en: twenty eight
+numbers.combined.20_9:
+  en: twenty nine
+numbers.combined.30_1:
+  en: thirty one
+numbers.combined.30_2:
+  en: thirty two
+numbers.combined.30_3:
+  en: thirty three
+numbers.combined.30_4:
+  en: thirty four
+numbers.combined.30_5:
+  en: thirty five
+numbers.combined.30_6:
+  en: thirty six
+numbers.combined.30_7:
+  en: thirty seven
+numbers.combined.30_8:
+  en: thirty eight
+numbers.combined.30_9:
+  en: thirty nine
+numbers.combined.40_1:
+  en: forty one
+numbers.combined.40_2:
+  en: forty two
+numbers.combined.40_3:
+  en: forty three
+numbers.combined.40_4:
+  en: forty four
+numbers.combined.40_5:
+  en: forty five
+numbers.combined.40_6:
+  en: forty six
+numbers.combined.40_7:
+  en: forty seven
+numbers.combined.40_8:
+  en: forty eight
+numbers.combined.40_9:
+  en: forty nine
+numbers.combined.50_1:
+  en: fifty one
+numbers.combined.50_2:
+  en: fifty two
+numbers.combined.50_3:
+  en: fifty three
+numbers.combined.50_4:
+  en: fifty four
+numbers.combined.50_5:
+  en: fifty five
+numbers.combined.50_6:
+  en: fifty six
+numbers.combined.50_7:
+  en: fifty seven
+numbers.combined.50_8:
+  en: fifty eight
+numbers.combined.50_9:
+  en: fifty nine
+numbers.combined.60_1:
+  en: sixty one
+numbers.combined.60_2:
+  en: sixty two
+numbers.combined.60_3:
+  en: sixty three
+numbers.combined.60_4:
+  en: sixty four
+numbers.combined.60_5:
+  en: sixty five
+numbers.combined.60_6:
+  en: sixty six
+numbers.combined.60_7:
+  en: sixty seven
+numbers.combined.60_8:
+  en: sixty eight
+numbers.combined.60_9:
+  en: sixty nine
+numbers.combined.70_1:
+  en: seventy one
+numbers.combined.70_2:
+  en: seventy two
+numbers.combined.70_3:
+  en: seventy three
+numbers.combined.70_4:
+  en: seventy four
+numbers.combined.70_5:
+  en: seventy five
+numbers.combined.70_6:
+  en: seventy six
+numbers.combined.70_7:
+  en: seventy seven
+numbers.combined.70_8:
+  en: seventy eight
+numbers.combined.70_9:
+  en: seventy nine
+numbers.combined.80_1:
+  en: eighty one
+numbers.combined.80_2:
+  en: eighty two
+numbers.combined.80_3:
+  en: eighty three
+numbers.combined.80_4:
+  en: eighty four
+numbers.combined.80_5:
+  en: eighty five
+numbers.combined.80_6:
+  en: eighty six
+numbers.combined.80_7:
+  en: eighty seven
+numbers.combined.80_8:
+  en: eighty eight
+numbers.combined.80_9:
+  en: eighty nine
+numbers.combined.90_1:
+  en: ninety one
+numbers.combined.90_2:
+  en: ninety two
+numbers.combined.90_3:
+  en: ninety three
+numbers.combined.90_4:
+  en: ninety four
+numbers.combined.90_5:
+  en: ninety five
+numbers.combined.90_6:
+  en: ninety six
+numbers.combined.90_7:
+  en: ninety seven
+numbers.combined.90_8:
+  en: ninety eight
+numbers.combined.90_9:
+  en: ninety nine
+
+numbers.hundred:
+  en: hundred
+numbers.thousand:
+  en: thousand
+numbers.million:
+  en: million
+numbers.billion:
+  en: billion
+numbers.negative:
+  en: negative
+numbers.one_eighth:
+  en: one eighth
+numbers.one_quarter:
+  en: one quarter
+numbers.one_half:
+  en: one half
+numbers.three_quarter:
+  en: three quarter
+
+units.singular.foot:
+  en: foot
+units.singular.kilometer:
+  en: kilometer
+units.singular.meter:
+  en: meter
+units.singular.mile:
+  en: mile
+units.plural.feet:
+  en: feet
+units.plural.kilometers:
+  en: kilometers
+units.plural.meters:
+  en: meters
+units.plural.miles:
+  en: miles

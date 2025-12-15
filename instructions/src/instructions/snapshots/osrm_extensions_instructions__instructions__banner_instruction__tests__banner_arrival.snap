@@ -1,0 +1,19 @@
+---
+source: instructions/src/instructions/banner_instruction.rs
+expression: factory.build()
+---
+[
+  {
+    "distanceAlongGeometry": 0.0,
+    "primary": {
+      "text": "arrive",
+      "type": "arrive",
+      "components": [
+        {
+          "text": "arrive",
+          "type": "text"
+        }
+      ]
+    }
+  }
+]

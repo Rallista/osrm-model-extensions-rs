@@ -1,0 +1,1868 @@
+---
+source: instructions/src/instructions/mod.rs
+expression: route_with_instructions
+---
+{
+  "distance": 10764.328,
+  "duration": 427.785,
+  "geometry": "_dmriAdpbumEP{|El@_NfCuTjEge@|Ecm@mAO}JeBeYkHyJyBqMwCaYuHmNeGkn@cVeb@t|B{Llp@cNhl@q_@j`BqFx[qEnTmPbdAuFfk@qDbj@_Fd{@gBh^sEhpAeBzr@qB~kAk@~jAHzn@~@`p@nDpt@zE|l@nFld@pOllApPlqAx]|pCtFxb@zPnsAtf@nzDnQbtAtU`hBvRvsA`UrwApW`cBvj@|pD`[|mBlfB|`LfS`rAv_@`bCdd@ztClw@fcF|Un{ApmAn}HvF`_@lv@ntE|`@t~CfLrpApMz{AtApl@xBh~AzHjtGp@t^|@nU`Dle@vAfOpAbN~BpSdCdWdAhMbA~JfBpM~B~MzFxY~Fp^bGzb@dObjAjPpaB|ArMzBfKtCpKlDpJ~DdIlDrFpD~EhFzF~EbEzFhErFvCxHfDbFzAnFdAfGp@|GZzDApCE`EM~Fa@fHu@tGy@hYgEt[uFlIuArGm@xGc@nGIvEDnL`@`KfAjItA~RxFdThJl\\fQ~LjGvPxHdKnE|KdFrLjEhDlAtP~ExPtDha@hFz^zDvC\\pCV|\\nDzP|Bn[pGnXhIpN|FlUnL~YhS`KbIdHxGtKvLtTzWvvBfpCnIbKEjNMlb@JpbA?vBFn~@D|cA[tg@",
+  "weight": 472.327,
+  "weight_name": "auto",
+  "legs": [
+    {
+      "distance": 10764.328,
+      "duration": 427.785,
+      "weight": 472.327,
+      "summary": "I 70, I 70 Business",
+      "steps": [
+        {
+          "distance": 477.565,
+          "duration": 49.121,
+          "geometry": "_dmriAdpbumEP{|El@_NfCuTjEge@|Ecm@",
+          "weight": 45.437,
+          "name": "G 7/10 Road",
+          "ref": "G.7",
+          "mode": "driving",
+          "maneuver": {
+            "location": [
+              -108.365587,
+              39.115856
+            ],
+            "bearing_before": 0,
+            "bearing_after": 90,
+            "type": "depart",
+            "instruction": "Drive east on G 7/10 Road/G.7."
+          },
+          "intersections": [
+            {
+              "location": [
+                -108.365587,
+                39.115856
+              ],
+              "bearings": [
+                90
+              ],
+              "entry": [
+                true
+              ],
+              "out": 0
+            }
+          ],
+          "driving_side": "right",
+          "voiceInstructions": [
+            {
+              "distanceAlongGeometry": 468.0137,
+              "announcement": "Drive east on G 7/10 Road/G.7."
+            },
+            {
+              "distanceAlongGeometry": 70.0,
+              "announcement": "Turn left onto Elberta Avenue."
+            }
+          ],
+          "bannerInstructions": [
+            {
+              "distanceAlongGeometry": 477.565,
+              "primary": {
+                "text": "Elberta Avenue",
+                "type": "turn",
+                "modifier": "left",
+                "components": [
+                  {
+                    "text": "Elberta Avenue",
+                    "type": "text"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "distance": 291.0,
+          "duration": 26.902,
+          "geometry": "mplriAfywtmEmAO}JeBeYkHyJyBqMwCaYuHmNeGkn@cV",
+          "weight": 49.447,
+          "name": "Elberta Avenue",
+          "mode": "driving",
+          "maneuver": {
+            "location": [
+              -108.3601,
+              39.115543
+            ],
+            "bearing_before": 101,
+            "bearing_after": 9,
+            "type": "turn",
+            "modifier": "left",
+            "instruction": "Turn left onto Elberta Avenue."
+          },
+          "intersections": [
+            {
+              "location": [
+                -108.3601,
+                39.115543
+              ],
+              "bearings": [
+                9,
+                189,
+                281
+              ],
+              "entry": [
+                true,
+                true,
+                false
+              ],
+              "in": 2,
+              "out": 0
+            },
+            {
+              "location": [
+                -108.360092,
+                39.115582
+              ],
+              "bearings": [
+                12,
+                189
+              ],
+              "entry": [
+                true,
+                false
+              ],
+              "in": 1,
+              "out": 0
+            },
+            {
+              "location": [
+                -108.360041,
+                39.115773
+              ],
+              "bearings": [
+                16,
+                192
+              ],
+              "entry": [
+                true,
+                false
+              ],
+              "in": 1,
+              "out": 0
+            },
+            {
+              "location": [
+                -108.359891,
+                39.116192
+              ],
+              "bearings": [
+                14,
+                108,
+                196
+              ],
+              "entry": [
+                true,
+                true,
+                false
+              ],
+              "in": 2,
+              "out": 0
+            },
+            {
+              "location": [
+                -108.35983,
+                39.116381
+              ],
+              "bearings": [
+                14,
+                194
+              ],
+              "entry": [
+                true,
+                false
+              ],
+              "in": 1,
+              "out": 0
+            },
+            {
+              "location": [
+                -108.359754,
+                39.116614
+              ],
+              "bearings": [
+                16,
+                37,
+                194
+              ],
+              "entry": [
+                true,
+                true,
+                false
+              ],
+              "in": 2,
+              "out": 0,
+              "lanes": [
+                {
+                  "indications": [
+                    "straight"
+                  ],
+                  "valid": true
+                },
+                {
+                  "indications": [
+                    "slight right"
+                  ],
+                  "valid": false
+                }
+              ]
+            },
+            {
+              "location": [
+                -108.359599,
+                39.117031
+              ],
+              "bearings": [
+                22,
+                163,
+                196,
+                291
+              ],
+              "entry": [
+                true,
+                false,
+                false,
+                true
+              ],
+              "in": 2,
+              "out": 0
+            },
+            {
+              "location": [
+                -108.359468,
+                39.117278
+              ],
+              "bearings": [
+                21,
+                101,
+                202,
+                297
+              ],
+              "entry": [
+                true,
+                true,
+                false,
+                false
+              ],
+              "in": 2,
+              "out": 0
+            }
+          ],
+          "driving_side": "right",
+          "voiceInstructions": [
+            {
+              "distanceAlongGeometry": 70.0,
+              "announcement": "Turn left to take the I 70 ramp."
+            }
+          ],
+          "bannerInstructions": [
+            {
+              "distanceAlongGeometry": 291.0,
+              "primary": {
+                "text": "I 70",
+                "type": "turn",
+                "modifier": "left",
+                "components": [
+                  {
+                    "text": "I 70",
+                    "type": "text"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "distance": 7262.0,
+          "duration": 227.126,
+          "geometry": "glqriArzutmEeb@t|B{Llp@cNhl@q_@j`BqFx[qEnTmPbdAuFfk@qDbj@_Fd{@gBh^sEhpAeBzr@qB~kAk@~jAHzn@~@`p@nDpt@zE|l@nFld@pOllApPlqAx]|pCtFxb@zPnsAtf@nzDnQbtAtU`hBvRvsA`UrwApW`cBvj@|pD`[|mBlfB|`LfS`rAv_@`bCdd@ztClw@fcF|Un{ApmAn}HvF`_@lv@ntE|`@t~CfLrpApMz{AtApl@xBh~AzHjtGp@t^|@nU`Dle@vAfOpAbN~BpS",
+          "weight": 231.15,
+          "name": "",
+          "ref": "I 70",
+          "destinations": "I 70",
+          "mode": "driving",
+          "maneuver": {
+            "location": [
+              -108.359098,
+              39.118036
+            ],
+            "bearing_before": 21,
+            "bearing_after": 290,
+            "type": "turn",
+            "modifier": "left",
+            "instruction": "Turn left to take the I 70 ramp."
+          },
+          "intersections": [
+            {
+              "location": [
+                -108.359098,
+                39.118036
+              ],
+              "bearings": [
+                108,
+                201,
+                290
+              ],
+              "entry": [
+                false,
+                false,
+                true
+              ],
+              "in": 1,
+              "out": 2
+            },
+            {
+              "location": [
+                -108.364644,
+                39.119705
+              ],
+              "bearings": [
+                109,
+                114,
+                291
+              ],
+              "classes": [
+                "motorway"
+              ],
+              "entry": [
+                false,
+                false,
+                true
+              ],
+              "in": 0,
+              "out": 2
+            },
+            {
+              "location": [
+                -108.367492,
+                39.120301
+              ],
+              "bearings": [
+                99,
+                187,
+                279
+              ],
+              "classes": [
+                "motorway"
+              ],
+              "entry": [
+                false,
+                false,
+                true
+              ],
+              "in": 0,
+              "out": 2
+            },
+            {
+              "location": [
+                -108.38217,
+                39.119307
+              ],
+              "bearings": [
+                75,
+                163,
+                255
+              ],
+              "classes": [
+                "motorway"
+              ],
+              "entry": [
+                false,
+                false,
+                true
+              ],
+              "in": 0,
+              "out": 2
+            },
+            {
+              "location": [
+                -108.399135,
+                39.115393
+              ],
+              "bearings": [
+                72,
+                160,
+                252
+              ],
+              "classes": [
+                "motorway"
+              ],
+              "entry": [
+                false,
+                false,
+                true
+              ],
+              "in": 0,
+              "out": 2
+            },
+            {
+              "location": [
+                -108.415298,
+                39.111392
+              ],
+              "bearings": [
+                72,
+                159,
+                252
+              ],
+              "classes": [
+                "motorway"
+              ],
+              "entry": [
+                false,
+                false,
+                true
+              ],
+              "in": 0,
+              "out": 2
+            },
+            {
+              "location": [
+                -108.416778,
+                39.111025
+              ],
+              "bearings": [
+                72,
+                252,
+                258
+              ],
+              "classes": [
+                "motorway"
+              ],
+              "entry": [
+                false,
+                true,
+                true
+              ],
+              "in": 0,
+              "out": 1
+            },
+            {
+              "location": [
+                -108.421874,
+                39.109768
+              ],
+              "bearings": [
+                70,
+                72,
+                253
+              ],
+              "classes": [
+                "motorway"
+              ],
+              "entry": [
+                false,
+                false,
+                true
+              ],
+              "in": 1,
+              "out": 2
+            },
+            {
+              "location": [
+                -108.439584,
+                39.107326
+              ],
+              "bearings": [
+                78,
+                172,
+                257
+              ],
+              "classes": [
+                "motorway"
+              ],
+              "entry": [
+                false,
+                false,
+                true
+              ],
+              "in": 0,
+              "out": 2
+            }
+          ],
+          "driving_side": "right",
+          "voiceInstructions": [
+            {
+              "distanceAlongGeometry": 7116.76,
+              "announcement": "Continue on I 70 for four miles"
+            },
+            {
+              "distanceAlongGeometry": 1609.344,
+              "announcement": "In one mile, take exit 37 onto i 70 business loop/us 6/us 50 toward clifton/grand junction/delta."
+            },
+            {
+              "distanceAlongGeometry": 804.672,
+              "announcement": "In one half mile, take exit 37 onto i 70 business loop/us 6/us 50 toward clifton/grand junction/delta."
+            },
+            {
+              "distanceAlongGeometry": 150.0,
+              "announcement": "Take exit 37 onto I 70 Business Loop/US 6/US 50 toward Clifton/Grand Junction/Delta."
+            }
+          ],
+          "bannerInstructions": [
+            {
+              "distanceAlongGeometry": 7262.0,
+              "primary": {
+                "text": "Interstate 70 Business Loop",
+                "type": "off ramp",
+                "modifier": "slight right",
+                "components": [
+                  {
+                    "text": "Interstate 70 Business Loop",
+                    "type": "text"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "distance": 2325.0,
+          "duration": 101.43,
+          "geometry": "ih|qiAtdtymEdCdWdAhMbA~JfBpM~B~MzFxY~Fp^bGzb@dObjAjPpaB|ArMzBfKtCpKlDpJ~DdIlDrFpD~EhFzF~EbEzFhErFvCxHfDbFzAnFdAfGp@|GZzDApCE`EM~Fa@fHu@tGy@hYgEt[uFlIuArGm@xGc@nGIvEDnL`@`KfAjItA~RxFdThJl\\fQ~LjGvPxHdKnE|KdFrLjEhDlAtP~ExPtDha@hFz^zDvC\\pCV|\\nDzP|Bn[pGnXhIpN|FlUnL~YhS`KbIdHxGtKvLtTzWvvBfpCnIbK",
+          "weight": 110.575,
+          "name": "Interstate 70 Business Loop",
+          "ref": "I 70 Business",
+          "destinations": "I 70 Business Loop, US 6, US 50: Clifton, Grand Junction, Delta",
+          "exits": "37",
+          "mode": "driving",
+          "maneuver": {
+            "location": [
+              -108.440155,
+              39.107221
+            ],
+            "bearing_before": 256,
+            "bearing_after": 257,
+            "type": "off ramp",
+            "modifier": "slight right",
+            "instruction": "Take exit 37 onto I 70 Business Loop/US 6/US 50 toward Clifton/Grand Junction/Delta."
+          },
+          "intersections": [
+            {
+              "location": [
+                -108.440155,
+                39.107221
+              ],
+              "bearings": [
+                76,
+                253,
+                257
+              ],
+              "classes": [
+                "motorway"
+              ],
+              "entry": [
+                false,
+                true,
+                true
+              ],
+              "in": 0,
+              "out": 2
+            },
+            {
+              "location": [
+                -108.447541,
+                39.104362
+              ],
+              "bearings": [
+                6,
+                178
+              ],
+              "classes": [
+                "motorway"
+              ],
+              "entry": [
+                false,
+                true
+              ],
+              "in": 0,
+              "out": 1
+            },
+            {
+              "location": [
+                -108.447457,
+                39.103683
+              ],
+              "bearings": [
+                170,
+                351
+              ],
+              "classes": [
+                "motorway"
+              ],
+              "entry": [
+                true,
+                false
+              ],
+              "in": 1,
+              "out": 0
+            },
+            {
+              "location": [
+                -108.447165,
+                39.101897
+              ],
+              "bearings": [
+                3,
+                189,
+                355
+              ],
+              "classes": [
+                "motorway"
+              ],
+              "entry": [
+                false,
+                true,
+                false
+              ],
+              "in": 0,
+              "out": 1
+            },
+            {
+              "location": [
+                -108.447842,
+                39.100408
+              ],
+              "bearings": [
+                26,
+                205
+              ],
+              "classes": [
+                "motorway"
+              ],
+              "entry": [
+                false,
+                true
+              ],
+              "in": 0,
+              "out": 1
+            },
+            {
+              "location": [
+                -108.447976,
+                39.100184
+              ],
+              "bearings": [
+                25,
+                203
+              ],
+              "classes": [
+                "motorway"
+              ],
+              "entry": [
+                false,
+                true
+              ],
+              "in": 0,
+              "out": 1
+            },
+            {
+              "location": [
+                -108.448237,
+                39.099705
+              ],
+              "bearings": [
+                22,
+                203
+              ],
+              "classes": [
+                "motorway"
+              ],
+              "entry": [
+                false,
+                true
+              ],
+              "in": 0,
+              "out": 1
+            },
+            {
+              "location": [
+                -108.448454,
+                39.09928
+              ],
+              "bearings": [
+                20,
+                198
+              ],
+              "classes": [
+                "motorway"
+              ],
+              "entry": [
+                false,
+                true
+              ],
+              "in": 0,
+              "out": 1,
+              "lanes": [
+                {
+                  "indications": [
+                    "left"
+                  ],
+                  "valid": false
+                },
+                {
+                  "indications": [
+                    "straight"
+                  ],
+                  "valid": true
+                },
+                {
+                  "indications": [
+                    "straight"
+                  ],
+                  "valid": true
+                }
+              ]
+            },
+            {
+              "location": [
+                -108.448813,
+                39.098078
+              ],
+              "bearings": [
+                9,
+                188,
+                201
+              ],
+              "classes": [
+                "motorway"
+              ],
+              "entry": [
+                false,
+                true,
+                true
+              ],
+              "in": 0,
+              "out": 1,
+              "lanes": [
+                {
+                  "indications": [
+                    "left"
+                  ],
+                  "valid": false
+                },
+                {
+                  "indications": [
+                    "straight"
+                  ],
+                  "valid": true
+                },
+                {
+                  "indications": [
+                    "straight"
+                  ],
+                  "valid": true
+                },
+                {
+                  "indications": [
+                    "slight right"
+                  ],
+                  "valid": false
+                }
+              ]
+            },
+            {
+              "location": [
+                -108.448922,
+                39.097492
+              ],
+              "bearings": [
+                8,
+                101,
+                188,
+                282
+              ],
+              "entry": [
+                false,
+                true,
+                true,
+                true
+              ],
+              "in": 0,
+              "out": 2,
+              "lanes": [
+                {
+                  "indications": [
+                    "left"
+                  ],
+                  "valid": false
+                },
+                {
+                  "indications": [
+                    "straight"
+                  ],
+                  "valid": true
+                },
+                {
+                  "indications": [
+                    "straight",
+                    "right"
+                  ],
+                  "valid": true
+                }
+              ]
+            },
+            {
+              "location": [
+                -108.449022,
+                39.09694
+              ],
+              "bearings": [
+                3,
+                8,
+                190
+              ],
+              "entry": [
+                false,
+                false,
+                true
+              ],
+              "in": 1,
+              "out": 2
+            }
+          ],
+          "driving_side": "right",
+          "voiceInstructions": [
+            {
+              "distanceAlongGeometry": 2278.5,
+              "announcement": "Continue on Interstate 70 Business Loop for one miles"
+            },
+            {
+              "distanceAlongGeometry": 804.672,
+              "announcement": "In one half mile, turn right onto patterson road/f."
+            },
+            {
+              "distanceAlongGeometry": 100.0,
+              "announcement": "Turn right onto Patterson Road/F."
+            }
+          ],
+          "bannerInstructions": [
+            {
+              "distanceAlongGeometry": 2325.0,
+              "primary": {
+                "text": "Patterson Road",
+                "type": "turn",
+                "modifier": "right",
+                "components": [
+                  {
+                    "text": "Patterson Road",
+                    "type": "text"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "distance": 408.763,
+          "duration": 23.206,
+          "geometry": "_c~piAjfnzmEEjNMlb@JpbA?vBFn~@D|cA[tg@",
+          "weight": 35.718,
+          "name": "Patterson Road",
+          "ref": "F",
+          "mode": "driving",
+          "maneuver": {
+            "location": [
+              -108.453494,
+              39.091776
+            ],
+            "bearing_before": 222,
+            "bearing_after": 271,
+            "type": "turn",
+            "modifier": "right",
+            "instruction": "Turn right onto Patterson Road/F."
+          },
+          "intersections": [
+            {
+              "location": [
+                -108.453494,
+                39.091776
+              ],
+              "bearings": [
+                42,
+                92,
+                222,
+                271
+              ],
+              "entry": [
+                false,
+                true,
+                true,
+                true
+              ],
+              "in": 0,
+              "out": 3
+            },
+            {
+              "location": [
+                -108.454307,
+                39.091786
+              ],
+              "bearings": [
+                1,
+                91,
+                134,
+                270
+              ],
+              "entry": [
+                true,
+                false,
+                true,
+                true
+              ],
+              "in": 1,
+              "out": 3
+            },
+            {
+              "location": [
+                -108.455448,
+                39.09178
+              ],
+              "bearings": [
+                0,
+                90,
+                270
+              ],
+              "entry": [
+                true,
+                false,
+                true
+              ],
+              "in": 1,
+              "out": 2
+            },
+            {
+              "location": [
+                -108.456464,
+                39.091776
+              ],
+              "bearings": [
+                0,
+                90,
+                270
+              ],
+              "entry": [
+                true,
+                false,
+                true
+              ],
+              "in": 1,
+              "out": 2
+            },
+            {
+              "location": [
+                -108.457567,
+                39.091773
+              ],
+              "bearings": [
+                0,
+                90,
+                272
+              ],
+              "entry": [
+                true,
+                false,
+                true
+              ],
+              "in": 1,
+              "out": 2
+            }
+          ],
+          "driving_side": "right",
+          "voiceInstructions": [
+            {
+              "distanceAlongGeometry": 70.0,
+              "announcement": "You have arrived at your destination."
+            }
+          ],
+          "bannerInstructions": [
+            {
+              "distanceAlongGeometry": 408.763,
+              "primary": {
+                "text": "Patterson Road",
+                "type": "arrive",
+                "components": [
+                  {
+                    "text": "Patterson Road",
+                    "type": "text"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "distance": 0.0,
+          "duration": 0.0,
+          "geometry": "uc~piArmwzmE??",
+          "weight": 0.0,
+          "name": "Patterson Road",
+          "ref": "F",
+          "mode": "driving",
+          "maneuver": {
+            "location": [
+              -108.458218,
+              39.091787
+            ],
+            "bearing_before": 272,
+            "bearing_after": 0,
+            "type": "arrive",
+            "instruction": "You have arrived at your destination."
+          },
+          "intersections": [
+            {
+              "location": [
+                -108.458218,
+                39.091787
+              ],
+              "bearings": [
+                92
+              ],
+              "entry": [
+                true
+              ],
+              "in": 0
+            }
+          ],
+          "driving_side": "right",
+          "voiceInstructions": [],
+          "bannerInstructions": [
+            {
+              "distanceAlongGeometry": 0.0,
+              "primary": {
+                "text": "Arrive",
+                "type": "arrive",
+                "components": [
+                  {
+                    "text": "Arrive",
+                    "type": "text"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "annotation": {
+        "duration": [
+          31.538,
+          2.148,
+          3.179,
+          5.561,
+          6.678,
+          0.396,
+          1.563,
+          3.485,
+          1.562,
+          1.926,
+          3.478,
+          2.141,
+          6.496,
+          7.469,
+          2.939,
+          2.757,
+          5.927,
+          1.7,
+          0.95,
+          2.988,
+          1.864,
+          1.797,
+          2.502,
+          1.299,
+          3.361,
+          2.139,
+          3.171,
+          3.125,
+          1.968,
+          2.02,
+          2.221,
+          1.923,
+          1.59,
+          3.302,
+          3.515,
+          6.218,
+          1.528,
+          3.601,
+          7.99,
+          3.635,
+          4.484,
+          3.638,
+          3.827,
+          4.315,
+          7.674,
+          4.798,
+          18.037,
+          3.58,
+          5.661,
+          6.47,
+          9.85,
+          3.993,
+          13.742,
+          1.381,
+          9.257,
+          6.808,
+          3.429,
+          3.896,
+          1.879,
+          3.924,
+          11.418,
+          1.306,
+          0.931,
+          1.603,
+          0.684,
+          0.637,
+          0.872,
+          1.385,
+          0.816,
+          0.688,
+          0.847,
+          0.887,
+          1.603,
+          1.856,
+          2.089,
+          4.359,
+          5.651,
+          0.845,
+          0.74,
+          0.779,
+          0.756,
+          0.715,
+          0.579,
+          0.56,
+          0.687,
+          0.61,
+          0.668,
+          0.61,
+          0.765,
+          0.538,
+          0.554,
+          0.601,
+          0.646,
+          0.423,
+          0.329,
+          0.437,
+          0.579,
+          0.673,
+          0.634,
+          1.928,
+          2.111,
+          0.767,
+          0.627,
+          0.638,
+          0.613,
+          0.486,
+          0.974,
+          0.878,
+          0.762,
+          1.506,
+          1.652,
+          2.354,
+          1.112,
+          1.392,
+          0.95,
+          1.015,
+          1.044,
+          0.406,
+          1.333,
+          1.322,
+          2.506,
+          2.32,
+          0.346,
+          0.41,
+          2.693,
+          1.615,
+          2.606,
+          2.38,
+          1.491,
+          2.205,
+          2.784,
+          1.282,
+          1.02,
+          1.476,
+          2.586,
+          14.647,
+          1.256,
+          1.196,
+          2.756,
+          5.254,
+          0.292,
+          4.938,
+          5.361,
+          3.165
+        ],
+        "speed": [
+          9.7,
+          9.7,
+          9.7,
+          9.7,
+          9.7,
+          11.1,
+          13.9,
+          13.9,
+          13.9,
+          13.9,
+          13.9,
+          13.9,
+          13.9,
+          24.7,
+          24.7,
+          24.7,
+          24.7,
+          24.7,
+          33.6,
+          33.6,
+          33.6,
+          33.6,
+          33.6,
+          33.6,
+          33.6,
+          33.6,
+          33.6,
+          33.6,
+          33.6,
+          33.6,
+          33.6,
+          33.6,
+          33.6,
+          33.6,
+          33.6,
+          33.6,
+          33.6,
+          33.6,
+          33.6,
+          33.6,
+          33.6,
+          33.6,
+          33.6,
+          33.6,
+          33.6,
+          33.6,
+          33.6,
+          33.6,
+          33.6,
+          33.6,
+          33.6,
+          33.6,
+          33.6,
+          33.6,
+          33.6,
+          33.6,
+          33.6,
+          33.6,
+          33.6,
+          33.6,
+          33.6,
+          33.6,
+          33.6,
+          33.6,
+          33.6,
+          33.6,
+          33.6,
+          24.7,
+          24.7,
+          24.7,
+          24.7,
+          24.7,
+          24.7,
+          24.7,
+          24.7,
+          24.7,
+          24.7,
+          24.7,
+          24.7,
+          24.7,
+          24.7,
+          24.7,
+          24.7,
+          24.7,
+          24.7,
+          24.7,
+          24.7,
+          24.7,
+          24.7,
+          24.7,
+          24.7,
+          24.7,
+          24.7,
+          24.7,
+          24.7,
+          24.7,
+          24.7,
+          24.7,
+          24.7,
+          24.7,
+          24.7,
+          24.7,
+          24.7,
+          24.7,
+          24.7,
+          24.7,
+          24.7,
+          24.7,
+          24.7,
+          24.7,
+          24.7,
+          24.7,
+          24.7,
+          24.7,
+          24.7,
+          24.7,
+          24.7,
+          24.7,
+          24.7,
+          24.7,
+          24.7,
+          24.7,
+          24.7,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          17.8,
+          17.8,
+          17.8,
+          17.8,
+          17.8,
+          17.8,
+          17.8
+        ],
+        "maxspeed": [
+          {
+            "unknown": true
+          },
+          {
+            "unknown": true
+          },
+          {
+            "unknown": true
+          },
+          {
+            "unknown": true
+          },
+          {
+            "unknown": true
+          },
+          {
+            "speed": 40,
+            "unit": "km/h"
+          },
+          {
+            "unknown": true
+          },
+          {
+            "unknown": true
+          },
+          {
+            "unknown": true
+          },
+          {
+            "unknown": true
+          },
+          {
+            "unknown": true
+          },
+          {
+            "unknown": true
+          },
+          {
+            "unknown": true
+          },
+          {
+            "unknown": true
+          },
+          {
+            "unknown": true
+          },
+          {
+            "unknown": true
+          },
+          {
+            "unknown": true
+          },
+          {
+            "unknown": true
+          },
+          {
+            "speed": 121,
+            "unit": "km/h"
+          },
+          {
+            "speed": 121,
+            "unit": "km/h"
+          },
+          {
+            "speed": 121,
+            "unit": "km/h"
+          },
+          {
+            "speed": 121,
+            "unit": "km/h"
+          },
+          {
+            "speed": 121,
+            "unit": "km/h"
+          },
+          {
+            "speed": 121,
+            "unit": "km/h"
+          },
+          {
+            "speed": 121,
+            "unit": "km/h"
+          },
+          {
+            "speed": 121,
+            "unit": "km/h"
+          },
+          {
+            "speed": 121,
+            "unit": "km/h"
+          },
+          {
+            "speed": 121,
+            "unit": "km/h"
+          },
+          {
+            "speed": 121,
+            "unit": "km/h"
+          },
+          {
+            "speed": 121,
+            "unit": "km/h"
+          },
+          {
+            "speed": 121,
+            "unit": "km/h"
+          },
+          {
+            "speed": 121,
+            "unit": "km/h"
+          },
+          {
+            "speed": 121,
+            "unit": "km/h"
+          },
+          {
+            "speed": 121,
+            "unit": "km/h"
+          },
+          {
+            "speed": 121,
+            "unit": "km/h"
+          },
+          {
+            "speed": 121,
+            "unit": "km/h"
+          },
+          {
+            "speed": 121,
+            "unit": "km/h"
+          },
+          {
+            "speed": 121,
+            "unit": "km/h"
+          },
+          {
+            "speed": 121,
+            "unit": "km/h"
+          },
+          {
+            "speed": 121,
+            "unit": "km/h"
+          },
+          {
+            "speed": 121,
+            "unit": "km/h"
+          },
+          {
+            "speed": 121,
+            "unit": "km/h"
+          },
+          {
+            "speed": 121,
+            "unit": "km/h"
+          },
+          {
+            "speed": 121,
+            "unit": "km/h"
+          },
+          {
+            "speed": 121,
+            "unit": "km/h"
+          },
+          {
+            "speed": 121,
+            "unit": "km/h"
+          },
+          {
+            "speed": 121,
+            "unit": "km/h"
+          },
+          {
+            "speed": 121,
+            "unit": "km/h"
+          },
+          {
+            "speed": 121,
+            "unit": "km/h"
+          },
+          {
+            "speed": 121,
+            "unit": "km/h"
+          },
+          {
+            "speed": 121,
+            "unit": "km/h"
+          },
+          {
+            "speed": 121,
+            "unit": "km/h"
+          },
+          {
+            "speed": 121,
+            "unit": "km/h"
+          },
+          {
+            "speed": 121,
+            "unit": "km/h"
+          },
+          {
+            "speed": 121,
+            "unit": "km/h"
+          },
+          {
+            "speed": 121,
+            "unit": "km/h"
+          },
+          {
+            "speed": 121,
+            "unit": "km/h"
+          },
+          {
+            "speed": 121,
+            "unit": "km/h"
+          },
+          {
+            "speed": 121,
+            "unit": "km/h"
+          },
+          {
+            "speed": 121,
+            "unit": "km/h"
+          },
+          {
+            "speed": 121,
+            "unit": "km/h"
+          },
+          {
+            "speed": 121,
+            "unit": "km/h"
+          },
+          {
+            "speed": 121,
+            "unit": "km/h"
+          },
+          {
+            "speed": 121,
+            "unit": "km/h"
+          },
+          {
+            "speed": 121,
+            "unit": "km/h"
+          },
+          {
+            "speed": 121,
+            "unit": "km/h"
+          },
+          {
+            "speed": 121,
+            "unit": "km/h"
+          },
+          {
+            "unknown": true
+          },
+          {
+            "unknown": true
+          },
+          {
+            "unknown": true
+          },
+          {
+            "unknown": true
+          },
+          {
+            "unknown": true
+          },
+          {
+            "unknown": true
+          },
+          {
+            "unknown": true
+          },
+          {
+            "unknown": true
+          },
+          {
+            "unknown": true
+          },
+          {
+            "unknown": true
+          },
+          {
+            "unknown": true
+          },
+          {
+            "unknown": true
+          },
+          {
+            "unknown": true
+          },
+          {
+            "unknown": true
+          },
+          {
+            "unknown": true
+          },
+          {
+            "unknown": true
+          },
+          {
+            "unknown": true
+          },
+          {
+            "unknown": true
+          },
+          {
+            "unknown": true
+          },
+          {
+            "unknown": true
+          },
+          {
+            "unknown": true
+          },
+          {
+            "unknown": true
+          },
+          {
+            "unknown": true
+          },
+          {
+            "unknown": true
+          },
+          {
+            "unknown": true
+          },
+          {
+            "unknown": true
+          },
+          {
+            "unknown": true
+          },
+          {
+            "unknown": true
+          },
+          {
+            "unknown": true
+          },
+          {
+            "unknown": true
+          },
+          {
+            "unknown": true
+          },
+          {
+            "unknown": true
+          },
+          {
+            "unknown": true
+          },
+          {
+            "unknown": true
+          },
+          {
+            "unknown": true
+          },
+          {
+            "unknown": true
+          },
+          {
+            "unknown": true
+          },
+          {
+            "unknown": true
+          },
+          {
+            "unknown": true
+          },
+          {
+            "unknown": true
+          },
+          {
+            "speed": 89,
+            "unit": "km/h"
+          },
+          {
+            "speed": 89,
+            "unit": "km/h"
+          },
+          {
+            "speed": 89,
+            "unit": "km/h"
+          },
+          {
+            "speed": 89,
+            "unit": "km/h"
+          },
+          {
+            "speed": 89,
+            "unit": "km/h"
+          },
+          {
+            "speed": 89,
+            "unit": "km/h"
+          },
+          {
+            "speed": 89,
+            "unit": "km/h"
+          },
+          {
+            "speed": 89,
+            "unit": "km/h"
+          },
+          {
+            "speed": 89,
+            "unit": "km/h"
+          },
+          {
+            "speed": 89,
+            "unit": "km/h"
+          },
+          {
+            "speed": 89,
+            "unit": "km/h"
+          },
+          {
+            "speed": 89,
+            "unit": "km/h"
+          },
+          {
+            "speed": 89,
+            "unit": "km/h"
+          },
+          {
+            "speed": 89,
+            "unit": "km/h"
+          },
+          {
+            "speed": 89,
+            "unit": "km/h"
+          },
+          {
+            "speed": 89,
+            "unit": "km/h"
+          },
+          {
+            "speed": 72,
+            "unit": "km/h"
+          },
+          {
+            "speed": 72,
+            "unit": "km/h"
+          },
+          {
+            "speed": 72,
+            "unit": "km/h"
+          },
+          {
+            "speed": 72,
+            "unit": "km/h"
+          },
+          {
+            "speed": 72,
+            "unit": "km/h"
+          },
+          {
+            "speed": 72,
+            "unit": "km/h"
+          },
+          {
+            "speed": 72,
+            "unit": "km/h"
+          },
+          {
+            "speed": 72,
+            "unit": "km/h"
+          },
+          {
+            "speed": 72,
+            "unit": "km/h"
+          },
+          {
+            "speed": 72,
+            "unit": "km/h"
+          },
+          {
+            "speed": 72,
+            "unit": "km/h"
+          },
+          {
+            "speed": 72,
+            "unit": "km/h"
+          },
+          {
+            "speed": 72,
+            "unit": "km/h"
+          },
+          {
+            "speed": 72,
+            "unit": "km/h"
+          },
+          {
+            "speed": 64,
+            "unit": "km/h"
+          },
+          {
+            "speed": 64,
+            "unit": "km/h"
+          },
+          {
+            "speed": 64,
+            "unit": "km/h"
+          },
+          {
+            "speed": 64,
+            "unit": "km/h"
+          },
+          {
+            "speed": 64,
+            "unit": "km/h"
+          },
+          {
+            "speed": 64,
+            "unit": "km/h"
+          },
+          {
+            "speed": 64,
+            "unit": "km/h"
+          }
+        ]
+      },
+      "via_waypoints": []
+    }
+  ]
+}
