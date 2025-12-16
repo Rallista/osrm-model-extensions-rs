@@ -1,0 +1,29 @@
+_version: 2
+
+# Instructions
+arrive:
+  en: Arrive
+depart:
+  en: Depart
+"%{instruction} Then %{next}":
+  en: "%{instruction} Then %{next}"
+Continue on %{name} for %{distance}:
+  en: Continue on %{name} for %{distance}
+In %{distance}, %{instruction}:
+  en: In %{distance}, %{instruction}
+
+# Units
+units.singular.kilometer:
+  en: kilometer
+units.singular.meter:
+  en: meter
+units.singular.mile:
+  en: mile
+units.plural.feet:
+  en: feet
+units.plural.kilometers:
+  en: kilometers
+units.plural.meters:
+  en: meters
+units.plural.miles:
+  en: miles
