@@ -1,0 +1,20 @@
+---
+source: src/instructions/banner_instruction.rs
+expression: factory.build()
+---
+[
+  {
+    "distanceAlongGeometry": 50.0,
+    "primary": {
+      "text": "Main Street",
+      "type": "turn",
+      "modifier": "right",
+      "components": [
+        {
+          "text": "Main Street",
+          "type": "text"
+        }
+      ]
+    }
+  }
+]

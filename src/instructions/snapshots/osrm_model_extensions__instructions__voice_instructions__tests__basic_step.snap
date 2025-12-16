@@ -1,0 +1,10 @@
+---
+source: src/instructions/voice_instructions.rs
+expression: instruction
+---
+[
+  {
+    "distanceAlongGeometry": 70.0,
+    "announcement": "Turn left to take the I 70 ramp."
+  }
+]

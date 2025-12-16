@@ -1,0 +1,59 @@
+---
+source: src/distance/spoken_numbers.rs
+expression: snapshot
+---
+0: one eighth
+1: one
+2: two
+3: three
+4: four
+5: five
+6: six
+7: seven
+8: eight
+9: nine
+10: ten
+11: eleven
+12: twelve
+13: thirteen
+14: fourteen
+15: fifteen
+16: sixteen
+17: seventeen
+18: eighteen
+19: nineteen
+20: twenty
+30: thirty
+40: forty
+50: fifty
+60: sixty
+70: seventy
+80: eighty
+90: ninety
+21: twenty one
+45: forty five
+67: sixty seven
+89: eighty nine
+99: ninety nine
+100: one hundred
+101: one hundred one
+110: one hundred ten
+111: one hundred eleven
+199: one hundred ninety nine
+200: two hundred
+999: nine hundred ninety nine
+1000: one thousand
+1001: one thousand one
+1100: one thousand one hundred
+1111: one thousand one hundred eleven
+1999: one thousand nine hundred ninety nine
+2000: two thousand
+9999: nine thousand nine hundred ninety nine
+-1: one eighth
+-10: one eighth
+-100: one eighth
+-1000: one eighth
+0.5: one half
+0.25: one quarter
+0.75: three quarter
+1.5: one
