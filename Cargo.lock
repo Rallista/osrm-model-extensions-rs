@@ -915,19 +915,11 @@ dependencies = [
 ]
 
 [[package]]
-name = "osrm-extensions-i18n"
-version = "0.0.1"
-dependencies = [
- "rust-i18n",
-]
-
-[[package]]
-name = "osrm-extensions-instructions"
+name = "osrm-model-extensions"
 version = "0.0.1"
 dependencies = [
  "geo",
  "insta",
- "osrm-extensions-i18n",
  "osrm-openapi-models",
  "polyline",
  "proptest",

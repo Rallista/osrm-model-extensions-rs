@@ -1,0 +1,10 @@
+---
+source: src/instructions/voice_instructions.rs
+expression: imperial
+---
+[
+  {
+    "distanceAlongGeometry": 70.0,
+    "announcement": "Turn left onto Southeast Stark Street. Then Turn right onto Southeast 60th Avenue."
+  }
+]

@@ -1,0 +1,30 @@
+---
+source: src/instructions/voice_announcements.rs
+expression: announcements
+---
+[
+    Continue(
+        Distance {
+            value: 7116.76,
+            unit: Meters,
+        },
+    ),
+    PreApproach(
+        Distance {
+            value: 2.0,
+            unit: Kilometers,
+        },
+    ),
+    Approach(
+        Distance {
+            value: 0.5,
+            unit: Kilometers,
+        },
+    ),
+    Maneuver(
+        Distance {
+            value: 70.0,
+            unit: Meters,
+        },
+    ),
+]

@@ -1,0 +1,22 @@
+---
+source: src/instructions/voice_instructions.rs
+expression: imperial
+---
+[
+  {
+    "distanceAlongGeometry": 7116.76,
+    "announcement": "Continue on I 70 for four miles"
+  },
+  {
+    "distanceAlongGeometry": 1609.344,
+    "announcement": "In one mile, take exit 37 onto i 70 business loop/us 6/us 50 toward clifton/grand junction/delta."
+  },
+  {
+    "distanceAlongGeometry": 804.672,
+    "announcement": "In one half mile, take exit 37 onto i 70 business loop/us 6/us 50 toward clifton/grand junction/delta."
+  },
+  {
+    "distanceAlongGeometry": 150.0,
+    "announcement": "Take exit 37 onto I 70 Business Loop/US 6/US 50 toward Clifton/Grand Junction/Delta."
+  }
+]
