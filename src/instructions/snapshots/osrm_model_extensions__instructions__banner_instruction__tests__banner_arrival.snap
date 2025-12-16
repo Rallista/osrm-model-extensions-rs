@@ -6,11 +6,11 @@ expression: factory.build()
   {
     "distanceAlongGeometry": 0.0,
     "primary": {
-      "text": "arrive",
+      "text": "Arrive",
       "type": "arrive",
       "components": [
         {
-          "text": "arrive",
+          "text": "Arrive",
           "type": "text"
         }
       ]

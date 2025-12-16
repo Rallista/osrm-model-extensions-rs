@@ -1,5 +1,0 @@
----
-source: src/geo/utilities.rs
-expression: "format!(\"{:?}\", coords)"
----
-Some([COORD(-122.29663 38.79699), COORD(-122.29699 38.79663), COORD(-122.29731 38.79631)])

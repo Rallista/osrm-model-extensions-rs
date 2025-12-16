@@ -1034,11 +1034,11 @@ expression: route_with_instructions
             {
               "distanceAlongGeometry": 0.0,
               "primary": {
-                "text": "arrive",
+                "text": "Arrive",
                 "type": "arrive",
                 "components": [
                   {
-                    "text": "arrive",
+                    "text": "Arrive",
                     "type": "text"
                   }
                 ]

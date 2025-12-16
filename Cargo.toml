@@ -1,6 +1,6 @@
 [package]
 name = "osrm-model-extensions"
-version = "0.0.1"
+version = "0.0.2"
 authors = [
     "Jacob Fielding <jacob@rallista.app>"
 ]
