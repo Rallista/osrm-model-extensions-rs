@@ -39,7 +39,7 @@ pub fn get_coordinate_index(
     for i in 1..points.len() {
         let current_point = &points[i];
         let prev_point = &points[i - 1];
-        let segment_distance = Haversine::distance(*prev_point, *current_point);
+        let segment_distance = Haversine.distance(*prev_point, *current_point);
 
         let next_accumulated = accumulated_distance + segment_distance;
 
