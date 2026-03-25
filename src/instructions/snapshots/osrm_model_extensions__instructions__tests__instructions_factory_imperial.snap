@@ -52,7 +52,7 @@ expression: route_with_instructions
           "voiceInstructions": [
             {
               "distanceAlongGeometry": 468.0137,
-              "announcement": "Drive east on G 7/10 Road/G.7."
+              "announcement": "Drive east on G 7, 10 Road, G.7."
             },
             {
               "distanceAlongGeometry": 70.0,
@@ -488,31 +488,31 @@ expression: route_with_instructions
           "voiceInstructions": [
             {
               "distanceAlongGeometry": 7116.76,
-              "announcement": "Continue on I 70 for four miles"
+              "announcement": "Continue on I 70 for four miles."
             },
             {
               "distanceAlongGeometry": 1609.344,
-              "announcement": "In one mile, take exit 37 onto i 70 business loop/us 6/us 50 toward clifton/grand junction/delta."
+              "announcement": "In one mile, take exit 37 onto I 70 Business Loop, US 6, US 50 toward Clifton, Grand Junction, Delta."
             },
             {
               "distanceAlongGeometry": 804.672,
-              "announcement": "In one half mile, take exit 37 onto i 70 business loop/us 6/us 50 toward clifton/grand junction/delta."
+              "announcement": "In one half mile, take exit 37 onto I 70 Business Loop, US 6, US 50 toward Clifton, Grand Junction, Delta."
             },
             {
               "distanceAlongGeometry": 150.0,
-              "announcement": "Take exit 37 onto I 70 Business Loop/US 6/US 50 toward Clifton/Grand Junction/Delta."
+              "announcement": "Take exit 37 onto I 70 Business Loop, US 6, US 50 toward Clifton, Grand Junction, Delta."
             }
           ],
           "bannerInstructions": [
             {
               "distanceAlongGeometry": 7262.0,
               "primary": {
-                "text": "Interstate 70 Business Loop",
+                "text": "I 70 Business",
                 "type": "off ramp",
                 "modifier": "slight right",
                 "components": [
                   {
-                    "text": "Interstate 70 Business Loop",
+                    "text": "I 70 Business",
                     "type": "text"
                   }
                 ]
@@ -829,27 +829,27 @@ expression: route_with_instructions
           "voiceInstructions": [
             {
               "distanceAlongGeometry": 2278.5,
-              "announcement": "Continue on Interstate 70 Business Loop for one miles"
+              "announcement": "Continue on I 70 Business for one miles."
             },
             {
               "distanceAlongGeometry": 804.672,
-              "announcement": "In one half mile, turn right onto patterson road/f."
+              "announcement": "In one half mile, turn right onto Patterson Road, F."
             },
             {
               "distanceAlongGeometry": 100.0,
-              "announcement": "Turn right onto Patterson Road/F."
+              "announcement": "Turn right onto Patterson Road, F."
             }
           ],
           "bannerInstructions": [
             {
               "distanceAlongGeometry": 2325.0,
               "primary": {
-                "text": "Patterson Road",
+                "text": "F",
                 "type": "turn",
                 "modifier": "right",
                 "components": [
                   {
-                    "text": "Patterson Road",
+                    "text": "F",
                     "type": "text"
                   }
                 ]
@@ -983,11 +983,11 @@ expression: route_with_instructions
             {
               "distanceAlongGeometry": 408.763,
               "primary": {
-                "text": "Patterson Road",
+                "text": "F",
                 "type": "arrive",
                 "components": [
                   {
-                    "text": "Patterson Road",
+                    "text": "F",
                     "type": "text"
                   }
                 ]
