@@ -95,42 +95,46 @@ impl VoiceInstructionFactory {
             .and_then(|m| m.instruction_string().ok().flatten())
             // Join the next step's instruction with the current step's street name (for continue).
             .map(|instruction| (instruction, step_maneuver_name(self.current.step.clone())))
-            .map(|(instruction, name)| sanitize_for_voice(match announce_at {
-                AnnounceAt::Depart(..) => current_instruction.unwrap_or(t!("depart").to_string()),
-                AnnounceAt::Continue(d) => t!(
-                    "Continue on %{name} for %{distance}.",
-                    name = name,
-                    distance = self.spoken_distance(d)
-                )
-                .to_string(),
-                AnnounceAt::PreApproach(d) => t!(
-                    "In %{distance}, %{instruction}",
-                    distance = self.spoken_distance(d),
-                    instruction = lowercase_first(&instruction)
-                )
-                .to_string(),
-                AnnounceAt::Approach(d) => t!(
-                    "In %{distance}, %{instruction}",
-                    distance = self.spoken_distance(d),
-                    instruction = lowercase_first(&instruction)
-                )
-                .to_string(),
-                AnnounceAt::Maneuver(..) => instruction,
-                AnnounceAt::ManeuverAndThen(..) => self
-                    .step_after_next
-                    .as_ref()
-                    .and_then(|b| b.step.maneuver.as_ref())
-                    .and_then(|m| m.instruction_string().ok().flatten())
-                    .map(|n| {
-                        t!(
-                            "%{instruction} Then %{next}",
-                            instruction = instruction,
-                            next = n
-                        )
-                        .to_string()
-                    })
-                    .unwrap_or_else(|| instruction),
-            }))
+            .map(|(instruction, name)| {
+                sanitize_for_voice(match announce_at {
+                    AnnounceAt::Depart(..) => {
+                        current_instruction.unwrap_or(t!("depart").to_string())
+                    }
+                    AnnounceAt::Continue(d) => t!(
+                        "Continue on %{name} for %{distance}.",
+                        name = name,
+                        distance = self.spoken_distance(d)
+                    )
+                    .to_string(),
+                    AnnounceAt::PreApproach(d) => t!(
+                        "In %{distance}, %{instruction}",
+                        distance = self.spoken_distance(d),
+                        instruction = lowercase_first(&instruction)
+                    )
+                    .to_string(),
+                    AnnounceAt::Approach(d) => t!(
+                        "In %{distance}, %{instruction}",
+                        distance = self.spoken_distance(d),
+                        instruction = lowercase_first(&instruction)
+                    )
+                    .to_string(),
+                    AnnounceAt::Maneuver(..) => instruction,
+                    AnnounceAt::ManeuverAndThen(..) => self
+                        .step_after_next
+                        .as_ref()
+                        .and_then(|b| b.step.maneuver.as_ref())
+                        .and_then(|m| m.instruction_string().ok().flatten())
+                        .map(|n| {
+                            t!(
+                                "%{instruction} Then %{next}",
+                                instruction = instruction,
+                                next = n
+                            )
+                            .to_string()
+                        })
+                        .unwrap_or_else(|| instruction),
+                })
+            })
     }
 
     fn ssml_announcement(&self) -> Option<String> {
