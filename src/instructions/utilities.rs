@@ -4,10 +4,11 @@ use crate::geo::utilities::get_coordinate_index;
 use crate::osrm::RouteStepExt;
 
 pub(crate) fn step_maneuver_name(step: RouteStep) -> String {
-    step.name
+    step.r#ref
         .clone()
+        .map(|s| normalize_ref(&s))
         .filter(|s| !s.is_empty())
-        .or_else(|| step.r#ref.clone().filter(|s| !s.is_empty()))
+        .or_else(|| step.name.clone().filter(|s| !s.is_empty()))
         .or_else(
             || match (step.exits.is_none(), step.destinations.is_none()) {
                 (true, false) => step
@@ -40,6 +41,13 @@ pub(crate) fn speed_at_distance(
     annotations.speed?.get(index).copied()
 }
 
+fn normalize_ref(s: &str) -> String {
+    match s.find(|c: char| c.is_ascii_digit()) {
+        None => s.to_uppercase(),
+        Some(idx) => format!("{}{}", s[..idx].to_uppercase(), &s[idx..]),
+    }
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
@@ -69,6 +77,30 @@ mod tests {
         };
 
         assert_eq!(step_maneuver_name(step), "I-95");
+    }
+
+    #[test]
+    fn test_step_maneuver_label_ref_uppercased() {
+        let step = RouteStep {
+            name: Some("Main Street".to_string()),
+            r#ref: Some("i-95".to_string()),
+            exits: None,
+            destinations: None,
+            ..Default::default()
+        };
+
+        assert_eq!(step_maneuver_name(step), "I-95");
+    }
+
+    #[test]
+    fn test_normalize_ref_preserves_qualifier() {
+        // "Business" suffix should not be uppercased — only the code prefix before the number
+        assert_eq!(normalize_ref("I 70 Business"), "I 70 Business");
+        assert_eq!(normalize_ref("i 70 Business"), "I 70 Business");
+        assert_eq!(normalize_ref("us-6"), "US-6");
+        assert_eq!(normalize_ref("co-340"), "CO-340");
+        // No digit — uppercase everything (pure code like TCH)
+        assert_eq!(normalize_ref("tch"), "TCH");
     }
 
     #[test]
@@ -112,7 +144,7 @@ mod tests {
 
     #[test]
     fn test_step_maneuver_label_precedence() {
-        // Testing that name takes precedence over ref and destinations
+        // ref takes precedence over name — route numbers (I-95) are more useful than administrative names
         let step = RouteStep {
             name: Some("Main Street".to_string()),
             r#ref: Some("I-95".to_string()),
@@ -121,6 +153,6 @@ mod tests {
             ..Default::default()
         };
 
-        assert_eq!(step_maneuver_name(step), "Main Street");
+        assert_eq!(step_maneuver_name(step), "I-95");
     }
 }

@@ -95,10 +95,10 @@ impl VoiceInstructionFactory {
             .and_then(|m| m.instruction_string().ok().flatten())
             // Join the next step's instruction with the current step's street name (for continue).
             .map(|instruction| (instruction, step_maneuver_name(self.current.step.clone())))
-            .map(|(instruction, name)| match announce_at {
+            .map(|(instruction, name)| sanitize_for_voice(match announce_at {
                 AnnounceAt::Depart(..) => current_instruction.unwrap_or(t!("depart").to_string()),
                 AnnounceAt::Continue(d) => t!(
-                    "Continue on %{name} for %{distance}",
+                    "Continue on %{name} for %{distance}.",
                     name = name,
                     distance = self.spoken_distance(d)
                 )
@@ -106,13 +106,13 @@ impl VoiceInstructionFactory {
                 AnnounceAt::PreApproach(d) => t!(
                     "In %{distance}, %{instruction}",
                     distance = self.spoken_distance(d),
-                    instruction = instruction.to_lowercase()
+                    instruction = lowercase_first(&instruction)
                 )
                 .to_string(),
                 AnnounceAt::Approach(d) => t!(
                     "In %{distance}, %{instruction}",
                     distance = self.spoken_distance(d),
-                    instruction = instruction.to_lowercase()
+                    instruction = lowercase_first(&instruction)
                 )
                 .to_string(),
                 AnnounceAt::Maneuver(..) => instruction,
@@ -130,7 +130,7 @@ impl VoiceInstructionFactory {
                         .to_string()
                     })
                     .unwrap_or_else(|| instruction),
-            })
+            }))
     }
 
     fn ssml_announcement(&self) -> Option<String> {
@@ -149,6 +149,18 @@ impl VoiceInstructionFactory {
             distance.to(Unit::Miles)
         };
         SpokenDistance::from_distance(converted).spoken()
+    }
+}
+
+fn sanitize_for_voice(s: String) -> String {
+    s.replace('/', ", ")
+}
+
+fn lowercase_first(s: &str) -> String {
+    let mut chars = s.chars();
+    match chars.next() {
+        None => String::new(),
+        Some(c) => c.to_lowercase().collect::<String>() + chars.as_str(),
     }
 }
 
