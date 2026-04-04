@@ -31,14 +31,20 @@ pub(crate) fn get_step_bundles(
                 .and_then(|g| get_coordinates_from_geometry(&g, polyline_precision))
                 .map(|c| c.len())
                 .unwrap_or(0);
-            let annotation_len = coord_len - 1; // annotations are between coordinates
 
             let start_index = current_index;
-            let end_index = current_index + annotation_len - 1;
-            current_index = end_index + 1;
-
-            let annotation_slice =
-                get_annotation_slice(annotations.clone(), start_index, end_index);
+            let (end_index, annotation_slice) = if coord_len >= 2 {
+                let annotation_len = coord_len - 1; // annotations are between coordinates
+                let end_index = current_index + annotation_len - 1;
+                current_index = end_index + 1;
+                (
+                    end_index,
+                    get_annotation_slice(annotations.clone(), start_index, end_index),
+                )
+            } else {
+                // Steps with 0 or 1 coordinates have no annotation segments
+                (start_index, None)
+            };
 
             RouteStepBundle {
                 step,
