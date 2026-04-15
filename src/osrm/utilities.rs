@@ -8,22 +8,18 @@ pub(crate) fn get_step_bundles(
     route: &Route,
     polyline_precision: u32,
 ) -> Option<Vec<RouteStepBundle>> {
-    let annotations = route
-        .clone()
-        .legs?
-        .iter()
-        .flat_map(|l| l.annotation.clone())
-        .next();
+    let mut bundles = Vec::new();
 
-    let mut current_index = 0;
+    for leg in route.legs.as_ref()? {
+        let annotation = leg.annotation.as_deref();
+        let mut current_index = 0;
 
-    let steps = route
-        .legs
-        .as_ref()?
-        .iter()
-        .flat_map(|l| l.steps.clone())
-        .flatten()
-        .map(|step| {
+        let steps = match &leg.steps {
+            Some(steps) => steps,
+            None => continue,
+        };
+
+        for step in steps {
             let coord_len = step
                 .geometry_string()
                 .ok()
@@ -39,26 +35,27 @@ pub(crate) fn get_step_bundles(
                 current_index = end_index + 1;
                 (
                     end_index,
-                    get_annotation_slice(annotations.clone(), start_index, end_index),
+                    get_annotation_slice(annotation, start_index, end_index),
                 )
             } else {
                 // Steps with 0 or 1 coordinates have no annotation segments
                 (start_index, None)
             };
 
-            RouteStepBundle {
-                step,
+            bundles.push(RouteStepBundle {
+                step: step.clone(),
                 annotation: annotation_slice,
                 start_index,
                 end_index,
-            }
-        })
-        .collect();
-    Some(steps)
+            });
+        }
+    }
+
+    Some(bundles)
 }
 
-pub(crate) fn get_annotation_slice(
-    annotations: Option<Box<Annotation>>,
+fn get_annotation_slice(
+    annotations: Option<&Annotation>,
     start_index: usize,
     end_index: usize,
 ) -> Option<Box<Annotation>> {
@@ -68,13 +65,34 @@ pub(crate) fn get_annotation_slice(
 
     annotations.map(|ann| {
         Box::new(Annotation {
-            distance: ann.distance.map(|v| v[start_index..=end_index].to_vec()),
-            duration: ann.duration.map(|v| v[start_index..=end_index].to_vec()),
-            datasources: ann.datasources.map(|v| v[start_index..=end_index].to_vec()),
-            nodes: ann.nodes.map(|v| v[start_index..=end_index].to_vec()),
-            weight: ann.weight.map(|v| v[start_index..=end_index].to_vec()),
-            speed: ann.speed.map(|v| v[start_index..=end_index].to_vec()),
-            maxspeed: ann.maxspeed.map(|v| v[start_index..=end_index].to_vec()),
+            distance: ann
+                .distance
+                .as_ref()
+                .map(|v| v[start_index..=end_index].to_vec()),
+            duration: ann
+                .duration
+                .as_ref()
+                .map(|v| v[start_index..=end_index].to_vec()),
+            datasources: ann
+                .datasources
+                .as_ref()
+                .map(|v| v[start_index..=end_index].to_vec()),
+            nodes: ann
+                .nodes
+                .as_ref()
+                .map(|v| v[start_index..=end_index].to_vec()),
+            weight: ann
+                .weight
+                .as_ref()
+                .map(|v| v[start_index..=end_index].to_vec()),
+            speed: ann
+                .speed
+                .as_ref()
+                .map(|v| v[start_index..=end_index].to_vec()),
+            maxspeed: ann
+                .maxspeed
+                .as_ref()
+                .map(|v| v[start_index..=end_index].to_vec()),
             metadata: ann.metadata.clone(),
         })
     })

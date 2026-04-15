@@ -28,13 +28,15 @@ impl InstructionsFactory {
         let legs = route.legs.as_mut()?;
 
         // Process each leg's steps
+        let mut bundle_offset = 0;
         for leg in legs.iter_mut() {
             // Access steps through the leg's steps field
             if let Some(ref mut steps) = leg.steps {
                 for (index, step) in steps.iter_mut().enumerate() {
-                    let current = step_bundles.get(index)?;
-                    let next = step_bundles.get(index + 1);
-                    let step_after_next = step_bundles.get(index + 2);
+                    let flat_index = bundle_offset + index;
+                    let current = step_bundles.get(flat_index)?;
+                    let next = step_bundles.get(flat_index + 1);
+                    let step_after_next = step_bundles.get(flat_index + 2);
 
                     // Generate banner instructions
                     let banner_factory = BannerInstructionsFactory::new(
@@ -55,6 +57,7 @@ impl InstructionsFactory {
                         step.voice_instructions = Some(voice_factory.build());
                     }
                 }
+                bundle_offset += steps.len();
             }
         }
 
@@ -82,6 +85,14 @@ mod tests {
     fn test_instructions_factory_imperial() {
         let route = load_route("./fixtures/valhalla-short.json", 0);
         let factory = InstructionsFactory::new(POLYLINE_PRECISION, false);
+        let route_with_instructions = factory.apply(route).unwrap();
+        assert_json_snapshot!(route_with_instructions);
+    }
+
+    #[test]
+    fn test_instructions_factory_multi_leg() {
+        let route = load_route("./fixtures/valhalla-multi-leg.json", 0);
+        let factory = InstructionsFactory::new(POLYLINE_PRECISION, true);
         let route_with_instructions = factory.apply(route).unwrap();
         assert_json_snapshot!(route_with_instructions);
     }
